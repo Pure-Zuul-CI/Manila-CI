@@ -1,0 +1,314 @@
+2025-07-30 08:37:42.092498+00:00 [notice] <0.230.0> Logging: configured log handlers are now ACTIVE
+2025-07-30 08:37:42.191935+00:00 [info] <0.230.0> ra: starting system quorum_queues
+2025-07-30 08:37:42.191990+00:00 [info] <0.230.0> starting Ra system: quorum_queues in directory: /var/lib/rabbitmq/mnesia/rabbit@np0000031991/quorum/rabbit@np0000031991
+2025-07-30 08:37:42.224978+00:00 [info] <0.262.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2025-07-30 08:37:42.229800+00:00 [info] <0.263.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2025-07-30 08:37:42.237844+00:00 [notice] <0.268.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2025-07-30 08:37:42.242872+00:00 [info] <0.230.0> ra: starting system coordination
+2025-07-30 08:37:42.242905+00:00 [info] <0.230.0> starting Ra system: coordination in directory: /var/lib/rabbitmq/mnesia/rabbit@np0000031991/coordination/rabbit@np0000031991
+2025-07-30 08:37:42.243760+00:00 [info] <0.275.0> ra system 'coordination' running pre init for 0 registered servers
+2025-07-30 08:37:42.244175+00:00 [info] <0.276.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2025-07-30 08:37:42.244287+00:00 [notice] <0.281.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2025-07-30 08:37:42.246398+00:00 [info] <0.230.0> 
+2025-07-30 08:37:42.246398+00:00 [info] <0.230.0>  Starting RabbitMQ 3.12.1 on Erlang 25.3.2.8 [jit]
+2025-07-30 08:37:42.246398+00:00 [info] <0.230.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2025-07-30 08:37:42.246398+00:00 [info] <0.230.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0> 
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0>  node           : rabbit@np0000031991
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0>  home dir       : /var/lib/rabbitmq
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0>  config file(s) : (none)
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0>  cookie hash    : /JeiDM98peFprbj24T1ZsA==
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0>  log(s)         : /var/log/rabbitmq/rabbit@np0000031991.log
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0>                 : <stdout>
+2025-07-30 08:37:42.247026+00:00 [info] <0.230.0>  data dir       : /var/lib/rabbitmq/mnesia/rabbit@np0000031991
+2025-07-30 08:37:43.516207+00:00 [info] <0.230.0> Running boot step pre_boot defined by app rabbit
+2025-07-30 08:37:43.516289+00:00 [info] <0.230.0> Running boot step rabbit_global_counters defined by app rabbit
+2025-07-30 08:37:43.516608+00:00 [info] <0.230.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2025-07-30 08:37:43.516726+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics defined by app rabbit
+2025-07-30 08:37:43.517230+00:00 [info] <0.230.0> Running boot step rabbit_alarm defined by app rabbit
+2025-07-30 08:37:43.520987+00:00 [info] <0.299.0> Memory high watermark set to 4783 MiB (5015941939 bytes) of 11958 MiB (12539854848 bytes) total
+2025-07-30 08:37:43.523385+00:00 [info] <0.301.0> Enabling free disk space monitoring (disk free space: 66460270592, total memory: 12539854848)
+2025-07-30 08:37:43.523421+00:00 [info] <0.301.0> Disk free limit set to 50MB
+2025-07-30 08:37:43.524532+00:00 [info] <0.230.0> Running boot step code_server_cache defined by app rabbit
+2025-07-30 08:37:43.524634+00:00 [info] <0.230.0> Running boot step file_handle_cache defined by app rabbit
+2025-07-30 08:37:43.524826+00:00 [info] <0.304.0> Limiting to approx 65439 file handles (58893 sockets)
+2025-07-30 08:37:43.524909+00:00 [info] <0.305.0> FHC read buffering: OFF
+2025-07-30 08:37:43.524934+00:00 [info] <0.305.0> FHC write buffering: ON
+2025-07-30 08:37:43.525158+00:00 [info] <0.230.0> Running boot step worker_pool defined by app rabbit
+2025-07-30 08:37:43.525237+00:00 [info] <0.283.0> Will use 8 processes for default worker pool
+2025-07-30 08:37:43.525265+00:00 [info] <0.283.0> Starting worker pool 'worker_pool' with 8 processes in it
+2025-07-30 08:37:43.525545+00:00 [info] <0.230.0> Running boot step database defined by app rabbit
+2025-07-30 08:37:43.525842+00:00 [info] <0.230.0> Node database directory at /var/lib/rabbitmq/mnesia/rabbit@np0000031991 is empty. Assuming we need to join an existing cluster or initialise from scratch...
+2025-07-30 08:37:43.525876+00:00 [info] <0.230.0> Configured peer discovery backend: rabbit_peer_discovery_classic_config
+2025-07-30 08:37:43.525914+00:00 [info] <0.230.0> Will try to lock with peer discovery backend rabbit_peer_discovery_classic_config
+2025-07-30 08:37:43.525987+00:00 [info] <0.230.0> All discovered existing cluster peers:
+2025-07-30 08:37:43.526002+00:00 [info] <0.230.0> Discovered no peer nodes to cluster with. Some discovery backends can filter nodes out based on a readiness criteria. Enabling debug logging might help troubleshoot.
+2025-07-30 08:37:43.528199+00:00 [notice] <0.44.0> Application mnesia exited with reason: stopped
+2025-07-30 08:37:43.576169+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2025-07-30 08:37:43.576276+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2025-07-30 08:37:43.576510+00:00 [notice] <0.284.0> Feature flags: attempt to enable `stream_sac_coordinator_unblock_group`...
+2025-07-30 08:37:43.595370+00:00 [notice] <0.284.0> Feature flags: `stream_sac_coordinator_unblock_group` enabled
+2025-07-30 08:37:43.595476+00:00 [notice] <0.284.0> Feature flags: attempt to enable `restart_streams`...
+2025-07-30 08:37:43.613391+00:00 [notice] <0.284.0> Feature flags: `restart_streams` enabled
+2025-07-30 08:37:43.613592+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2025-07-30 08:37:43.613694+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2025-07-30 08:37:43.617726+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2025-07-30 08:37:43.617830+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2025-07-30 08:37:43.617861+00:00 [info] <0.230.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2025-07-30 08:37:43.617917+00:00 [info] <0.230.0> Will try to unlock with peer discovery backend rabbit_peer_discovery_classic_config
+2025-07-30 08:37:43.618094+00:00 [info] <0.230.0> Running boot step tracking_metadata_store defined by app rabbit
+2025-07-30 08:37:43.618173+00:00 [info] <0.486.0> Setting up a table for connection tracking on this node: tracked_connection
+2025-07-30 08:37:43.618221+00:00 [info] <0.486.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2025-07-30 08:37:43.618300+00:00 [info] <0.486.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2025-07-30 08:37:43.618377+00:00 [info] <0.486.0> Setting up a table for channel tracking on this node: tracked_channel
+2025-07-30 08:37:43.618433+00:00 [info] <0.486.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2025-07-30 08:37:43.618497+00:00 [info] <0.230.0> Running boot step networking_metadata_store defined by app rabbit
+2025-07-30 08:37:43.618545+00:00 [info] <0.230.0> Running boot step feature_flags defined by app rabbit
+2025-07-30 08:37:43.618607+00:00 [info] <0.230.0> Running boot step codec_correctness_check defined by app rabbit
+2025-07-30 08:37:43.618686+00:00 [info] <0.230.0> Running boot step external_infrastructure defined by app rabbit
+2025-07-30 08:37:43.618719+00:00 [info] <0.230.0> Running boot step rabbit_event defined by app rabbit
+2025-07-30 08:37:43.618828+00:00 [info] <0.230.0> Running boot step rabbit_registry defined by app rabbit
+2025-07-30 08:37:43.618886+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2025-07-30 08:37:43.618964+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2025-07-30 08:37:43.619022+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2025-07-30 08:37:43.619072+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2025-07-30 08:37:43.619138+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2025-07-30 08:37:43.619207+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2025-07-30 08:37:43.619248+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2025-07-30 08:37:43.619286+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2025-07-30 08:37:43.619323+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2025-07-30 08:37:43.619369+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2025-07-30 08:37:43.619418+00:00 [info] <0.230.0> Running boot step rabbit_priority_queue defined by app rabbit
+2025-07-30 08:37:43.619443+00:00 [info] <0.230.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2025-07-30 08:37:43.619495+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2025-07-30 08:37:43.619554+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2025-07-30 08:37:43.619614+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2025-07-30 08:37:43.619676+00:00 [info] <0.230.0> Running boot step kernel_ready defined by app rabbit
+2025-07-30 08:37:43.619706+00:00 [info] <0.230.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2025-07-30 08:37:43.619847+00:00 [info] <0.230.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2025-07-30 08:37:43.620557+00:00 [info] <0.494.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2025-07-30 08:37:43.620632+00:00 [info] <0.230.0> Running boot step guid_generator defined by app rabbit
+2025-07-30 08:37:43.622093+00:00 [info] <0.230.0> Running boot step rabbit_node_monitor defined by app rabbit
+2025-07-30 08:37:43.622256+00:00 [info] <0.498.0> Starting rabbit_node_monitor
+2025-07-30 08:37:43.622338+00:00 [info] <0.230.0> Running boot step delegate_sup defined by app rabbit
+2025-07-30 08:37:43.622633+00:00 [info] <0.230.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2025-07-30 08:37:43.622829+00:00 [info] <0.230.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2025-07-30 08:37:43.622886+00:00 [info] <0.230.0> Running boot step core_initialized defined by app rabbit
+2025-07-30 08:37:43.622903+00:00 [info] <0.230.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2025-07-30 08:37:43.622942+00:00 [info] <0.230.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2025-07-30 08:37:43.622970+00:00 [info] <0.230.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2025-07-30 08:37:43.623014+00:00 [info] <0.230.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2025-07-30 08:37:43.623209+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2025-07-30 08:37:43.623486+00:00 [info] <0.230.0> Running boot step rabbit_policies defined by app rabbit
+2025-07-30 08:37:43.623734+00:00 [info] <0.230.0> Running boot step rabbit_policy defined by app rabbit
+2025-07-30 08:37:43.623785+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2025-07-30 08:37:43.623831+00:00 [info] <0.230.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2025-07-30 08:37:43.623866+00:00 [info] <0.230.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2025-07-30 08:37:43.623943+00:00 [info] <0.230.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2025-07-30 08:37:43.623982+00:00 [info] <0.230.0> Running boot step recovery defined by app rabbit
+2025-07-30 08:37:43.624513+00:00 [info] <0.230.0> Running boot step empty_db_check defined by app rabbit
+2025-07-30 08:37:43.624552+00:00 [info] <0.230.0> Will seed default virtual host and user...
+2025-07-30 08:37:43.624640+00:00 [info] <0.230.0> Adding vhost '/' (description: 'Default virtual host', tags: [])
+2025-07-30 08:37:43.625919+00:00 [info] <0.230.0> Inserted a virtual host record {vhost,<<"/">>,[],
+2025-07-30 08:37:43.625919+00:00 [info] <0.230.0>                                       #{description =>
+2025-07-30 08:37:43.625919+00:00 [info] <0.230.0>                                             <<"Default virtual host">>,
+2025-07-30 08:37:43.625919+00:00 [info] <0.230.0>                                         tags => []}}
+2025-07-30 08:37:43.634692+00:00 [info] <0.539.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@np0000031991/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2025-07-30 08:37:43.635396+00:00 [info] <0.539.0> Setting segment_entry_count for vhost '/' with 0 queues to '2048'
+2025-07-30 08:37:43.637747+00:00 [info] <0.539.0> Starting message stores for vhost '/'
+2025-07-30 08:37:43.637907+00:00 [info] <0.549.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2025-07-30 08:37:43.638584+00:00 [info] <0.539.0> Started message store of type transient for vhost '/'
+2025-07-30 08:37:43.638701+00:00 [info] <0.553.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2025-07-30 08:37:43.639026+00:00 [warning] <0.553.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2025-07-30 08:37:43.639463+00:00 [info] <0.539.0> Started message store of type persistent for vhost '/'
+2025-07-30 08:37:43.639572+00:00 [info] <0.539.0> Recovering 0 queues of type rabbit_classic_queue took 3ms
+2025-07-30 08:37:43.639606+00:00 [info] <0.539.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2025-07-30 08:37:43.639637+00:00 [info] <0.539.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-07-30 08:37:43.641943+00:00 [info] <0.230.0> Created user 'guest'
+2025-07-30 08:37:43.643187+00:00 [info] <0.230.0> Successfully set user tags for user 'guest' to [administrator]
+2025-07-30 08:37:43.644421+00:00 [info] <0.230.0> Successfully set permissions for user 'guest' in virtual host '/' to '.*', '.*', '.*'
+2025-07-30 08:37:43.644460+00:00 [info] <0.230.0> Running boot step rabbit_observer_cli defined by app rabbit
+2025-07-30 08:37:43.644561+00:00 [info] <0.230.0> Running boot step rabbit_looking_glass defined by app rabbit
+2025-07-30 08:37:43.644609+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2025-07-30 08:37:43.644749+00:00 [info] <0.230.0> Running boot step background_gc defined by app rabbit
+2025-07-30 08:37:43.644881+00:00 [info] <0.230.0> Running boot step routing_ready defined by app rabbit
+2025-07-30 08:37:43.644904+00:00 [info] <0.230.0> Running boot step pre_flight defined by app rabbit
+2025-07-30 08:37:43.644935+00:00 [info] <0.230.0> Running boot step notify_cluster defined by app rabbit
+2025-07-30 08:37:43.644962+00:00 [info] <0.230.0> Running boot step networking defined by app rabbit
+2025-07-30 08:37:43.644992+00:00 [info] <0.230.0> Running boot step definition_import_worker_pool defined by app rabbit
+2025-07-30 08:37:43.645038+00:00 [info] <0.283.0> Starting worker pool 'definition_import_pool' with 8 processes in it
+2025-07-30 08:37:43.645345+00:00 [info] <0.230.0> Running boot step cluster_name defined by app rabbit
+2025-07-30 08:37:43.645421+00:00 [info] <0.230.0> Initialising internal cluster ID to 'rabbitmq-cluster-id-reMCEm3XrGfoh_7f_r5BOA'
+2025-07-30 08:37:43.646723+00:00 [info] <0.230.0> Running boot step direct_client defined by app rabbit
+2025-07-30 08:37:43.646791+00:00 [info] <0.230.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2025-07-30 08:37:43.646829+00:00 [info] <0.230.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2025-07-30 08:37:43.649001+00:00 [info] <0.595.0> Resetting node maintenance status
+2025-07-30 08:37:43.649085+00:00 [info] <0.595.0> Ready to start client connection listeners
+2025-07-30 08:37:43.650291+00:00 [info] <0.613.0> started TCP listener on [::]:5672
+2025-07-30 08:37:43.697734+00:00 [info] <0.595.0> Server startup complete; 0 plugins started.
+2025-07-30 08:37:45.310696+00:00 [info] <0.625.0> Created user 'stackrabbit'
+2025-07-30 08:37:45.679317+00:00 [info] <0.632.0> Successfully set permissions for user 'stackrabbit' in virtual host '/' to '.*', '.*', '.*'
+2025-07-30 08:37:46.047107+00:00 [info] <0.639.0> Successfully changed password for user 'stackrabbit'
+2025-07-30 08:37:46.431273+00:00 [info] <0.646.0> Deleted user 'guest'
+2025-07-30 08:37:46.431436+00:00 [info] <0.648.0> Closing all connections from user 'guest' because it's being deleted
+2025-07-30 08:42:55.884121+00:00 [info] <0.695.0> Adding vhost 'nova_cell1' (description: '', tags: [])
+2025-07-30 08:42:55.887289+00:00 [info] <0.695.0> Inserted a virtual host record {vhost,<<"nova_cell1">>,[],
+2025-07-30 08:42:55.887289+00:00 [info] <0.695.0>                                       #{description => <<>>,tags => []}}
+2025-07-30 08:42:55.895971+00:00 [info] <0.707.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@np0000031991/msg_stores/vhosts/6RTRUNKEABC4BKCG2P5ONFZRJ' for vhost 'nova_cell1' exists
+2025-07-30 08:42:55.896399+00:00 [info] <0.707.0> Setting segment_entry_count for vhost 'nova_cell1' with 0 queues to '2048'
+2025-07-30 08:42:55.898785+00:00 [info] <0.707.0> Starting message stores for vhost 'nova_cell1'
+2025-07-30 08:42:55.898932+00:00 [info] <0.716.0> Message store "6RTRUNKEABC4BKCG2P5ONFZRJ/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2025-07-30 08:42:55.899625+00:00 [info] <0.707.0> Started message store of type transient for vhost 'nova_cell1'
+2025-07-30 08:42:55.899750+00:00 [info] <0.720.0> Message store "6RTRUNKEABC4BKCG2P5ONFZRJ/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2025-07-30 08:42:55.900086+00:00 [warning] <0.720.0> Message store "6RTRUNKEABC4BKCG2P5ONFZRJ/msg_store_persistent": rebuilding indices from scratch
+2025-07-30 08:42:55.900572+00:00 [info] <0.707.0> Started message store of type persistent for vhost 'nova_cell1'
+2025-07-30 08:42:55.900695+00:00 [info] <0.707.0> Recovering 0 queues of type rabbit_classic_queue took 3ms
+2025-07-30 08:42:55.900723+00:00 [info] <0.707.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2025-07-30 08:42:55.900758+00:00 [info] <0.707.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2025-07-30 08:42:56.281979+00:00 [info] <0.751.0> Successfully set permissions for user 'stackrabbit' in virtual host 'nova_cell1' to '.*', '.*', '.*'
+2025-07-30 08:46:31.618074+00:00 [info] <0.775.0> accepting AMQP connection <0.775.0> (192.168.1.114:58282 -> 192.168.1.114:5672)
+2025-07-30 08:46:31.620230+00:00 [info] <0.775.0> connection <0.775.0> (192.168.1.114:58282 -> 192.168.1.114:5672) has a client-provided name: neutron-rpc-server:73910:4fe180b2-4165-454e-a9f3-1296b7cf740e
+2025-07-30 08:46:31.620938+00:00 [info] <0.775.0> connection <0.775.0> (192.168.1.114:58282 -> 192.168.1.114:5672 - neutron-rpc-server:73910:4fe180b2-4165-454e-a9f3-1296b7cf740e): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:31.633588+00:00 [info] <0.814.0> accepting AMQP connection <0.814.0> (192.168.1.114:58292 -> 192.168.1.114:5672)
+2025-07-30 08:46:31.634379+00:00 [info] <0.814.0> connection <0.814.0> (192.168.1.114:58292 -> 192.168.1.114:5672) has a client-provided name: neutron-rpc-server:73910:d31cdff6-74c5-462b-8cd5-77a201243808
+2025-07-30 08:46:31.634818+00:00 [info] <0.814.0> connection <0.814.0> (192.168.1.114:58292 -> 192.168.1.114:5672 - neutron-rpc-server:73910:d31cdff6-74c5-462b-8cd5-77a201243808): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:31.642625+00:00 [info] <0.851.0> accepting AMQP connection <0.851.0> (192.168.1.114:58300 -> 192.168.1.114:5672)
+2025-07-30 08:46:31.643806+00:00 [info] <0.851.0> connection <0.851.0> (192.168.1.114:58300 -> 192.168.1.114:5672) has a client-provided name: neutron-rpc-server:73910:9ec4700e-2318-4032-b5c3-c2b749bbad86
+2025-07-30 08:46:31.644233+00:00 [info] <0.851.0> connection <0.851.0> (192.168.1.114:58300 -> 192.168.1.114:5672 - neutron-rpc-server:73910:9ec4700e-2318-4032-b5c3-c2b749bbad86): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:34.837487+00:00 [info] <0.888.0> accepting AMQP connection <0.888.0> (192.168.1.114:58302 -> 192.168.1.114:5672)
+2025-07-30 08:46:34.838475+00:00 [info] <0.888.0> connection <0.888.0> (192.168.1.114:58302 -> 192.168.1.114:5672) has a client-provided name: uwsgi:71830:4d7bd99b-e370-4d62-b26b-8b12fd1f3530
+2025-07-30 08:46:34.838929+00:00 [info] <0.888.0> connection <0.888.0> (192.168.1.114:58302 -> 192.168.1.114:5672 - uwsgi:71830:4d7bd99b-e370-4d62-b26b-8b12fd1f3530): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:35.662933+00:00 [info] <0.904.0> accepting AMQP connection <0.904.0> (192.168.1.114:58304 -> 192.168.1.114:5672)
+2025-07-30 08:46:35.663874+00:00 [info] <0.904.0> connection <0.904.0> (192.168.1.114:58304 -> 192.168.1.114:5672) has a client-provided name: uwsgi:71829:9ff4e25d-8958-444b-8df1-b985fe4b37bb
+2025-07-30 08:46:35.664320+00:00 [info] <0.904.0> connection <0.904.0> (192.168.1.114:58304 -> 192.168.1.114:5672 - uwsgi:71829:9ff4e25d-8958-444b-8df1-b985fe4b37bb): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:45.654948+00:00 [info] <0.921.0> accepting AMQP connection <0.921.0> (192.168.1.114:39014 -> 192.168.1.114:5672)
+2025-07-30 08:46:45.658121+00:00 [info] <0.921.0> connection <0.921.0> (192.168.1.114:39014 -> 192.168.1.114:5672) has a client-provided name: nova-scheduler:77314:dff7b452-fc96-4796-9869-7df5c4c8c2ae
+2025-07-30 08:46:45.658512+00:00 [info] <0.924.0> accepting AMQP connection <0.924.0> (192.168.1.114:39030 -> 192.168.1.114:5672)
+2025-07-30 08:46:45.658938+00:00 [info] <0.921.0> connection <0.921.0> (192.168.1.114:39014 -> 192.168.1.114:5672 - nova-scheduler:77314:dff7b452-fc96-4796-9869-7df5c4c8c2ae): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:45.661052+00:00 [info] <0.924.0> connection <0.924.0> (192.168.1.114:39030 -> 192.168.1.114:5672) has a client-provided name: nova-scheduler:77319:affbf2f4-8e1e-4f41-b1f0-1053f3571023
+2025-07-30 08:46:45.662227+00:00 [info] <0.924.0> connection <0.924.0> (192.168.1.114:39030 -> 192.168.1.114:5672 - nova-scheduler:77319:affbf2f4-8e1e-4f41-b1f0-1053f3571023): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:48.665823+00:00 [info] <0.981.0> accepting AMQP connection <0.981.0> (192.168.1.114:54912 -> 192.168.1.114:5672)
+2025-07-30 08:46:48.667454+00:00 [info] <0.981.0> connection <0.981.0> (192.168.1.114:54912 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79515:918346bb-db81-4dd0-95f7-a63206845109
+2025-07-30 08:46:48.668047+00:00 [info] <0.981.0> connection <0.981.0> (192.168.1.114:54912 -> 192.168.1.114:5672 - nova-conductor:79515:918346bb-db81-4dd0-95f7-a63206845109): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:48.679561+00:00 [info] <0.1002.0> accepting AMQP connection <0.1002.0> (192.168.1.114:54916 -> 192.168.1.114:5672)
+2025-07-30 08:46:48.680810+00:00 [info] <0.1002.0> connection <0.1002.0> (192.168.1.114:54916 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79519:fb2e5a4c-aa2b-4e58-b7cf-74247bf775d7
+2025-07-30 08:46:48.681417+00:00 [info] <0.1002.0> connection <0.1002.0> (192.168.1.114:54916 -> 192.168.1.114:5672 - nova-conductor:79519:fb2e5a4c-aa2b-4e58-b7cf-74247bf775d7): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:46:49.419429+00:00 [info] <0.1040.0> accepting AMQP connection <0.1040.0> (192.168.1.114:54922 -> 192.168.1.114:5672)
+2025-07-30 08:46:49.423463+00:00 [info] <0.1043.0> accepting AMQP connection <0.1043.0> (192.168.1.114:54924 -> 192.168.1.114:5672)
+2025-07-30 08:46:49.423733+00:00 [info] <0.1040.0> connection <0.1040.0> (192.168.1.114:54922 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79922:258cceca-3029-4506-b9eb-f4fbaa5b3877
+2025-07-30 08:46:49.424258+00:00 [info] <0.1040.0> connection <0.1040.0> (192.168.1.114:54922 -> 192.168.1.114:5672 - nova-conductor:79922:258cceca-3029-4506-b9eb-f4fbaa5b3877): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:46:49.424946+00:00 [info] <0.1043.0> connection <0.1043.0> (192.168.1.114:54924 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79921:67a0fa29-f928-41d3-a280-132131ff2a00
+2025-07-30 08:46:49.425583+00:00 [info] <0.1043.0> connection <0.1043.0> (192.168.1.114:54924 -> 192.168.1.114:5672 - nova-conductor:79921:67a0fa29-f928-41d3-a280-132131ff2a00): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:46:50.942212+00:00 [info] <0.1100.0> accepting AMQP connection <0.1100.0> (192.168.1.114:54930 -> 192.168.1.114:5672)
+2025-07-30 08:46:50.943135+00:00 [info] <0.1100.0> connection <0.1100.0> (192.168.1.114:54930 -> 192.168.1.114:5672) has a client-provided name: nova-compute:79862:047e17b3-66f2-4e39-bf4a-8e05575dd2a5
+2025-07-30 08:46:50.943562+00:00 [info] <0.1100.0> connection <0.1100.0> (192.168.1.114:54930 -> 192.168.1.114:5672 - nova-compute:79862:047e17b3-66f2-4e39-bf4a-8e05575dd2a5): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:46:50.946865+00:00 [info] <0.1119.0> accepting AMQP connection <0.1119.0> (192.168.1.114:54934 -> 192.168.1.114:5672)
+2025-07-30 08:46:50.947465+00:00 [info] <0.1119.0> connection <0.1119.0> (192.168.1.114:54934 -> 192.168.1.114:5672) has a client-provided name: nova-compute:79862:48d9a090-0b3d-49f4-b467-8632c1a6d54d
+2025-07-30 08:46:50.947824+00:00 [info] <0.1119.0> connection <0.1119.0> (192.168.1.114:54934 -> 192.168.1.114:5672 - nova-compute:79862:48d9a090-0b3d-49f4-b467-8632c1a6d54d): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:46:50.954979+00:00 [info] <0.1132.0> accepting AMQP connection <0.1132.0> (192.168.1.114:54946 -> 192.168.1.114:5672)
+2025-07-30 08:46:50.955644+00:00 [info] <0.1132.0> connection <0.1132.0> (192.168.1.114:54946 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79922:7e2d6758-a634-41b2-b1cc-4436b2e40ff8
+2025-07-30 08:46:50.956034+00:00 [info] <0.1132.0> connection <0.1132.0> (192.168.1.114:54946 -> 192.168.1.114:5672 - nova-conductor:79922:7e2d6758-a634-41b2-b1cc-4436b2e40ff8): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:46:51.559384+00:00 [info] <0.1145.0> accepting AMQP connection <0.1145.0> (192.168.1.114:54950 -> 192.168.1.114:5672)
+2025-07-30 08:46:51.561086+00:00 [info] <0.1145.0> connection <0.1145.0> (192.168.1.114:54950 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79921:fa61860c-5248-43a7-bb26-225c6c8da424
+2025-07-30 08:46:51.562195+00:00 [info] <0.1145.0> connection <0.1145.0> (192.168.1.114:54950 -> 192.168.1.114:5672 - nova-conductor:79921:fa61860c-5248-43a7-bb26-225c6c8da424): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:47:04.122580+00:00 [info] <0.1158.0> accepting AMQP connection <0.1158.0> (192.168.1.114:40178 -> 192.168.1.114:5672)
+2025-07-30 08:47:04.123431+00:00 [info] <0.1158.0> connection <0.1158.0> (192.168.1.114:40178 -> 192.168.1.114:5672) has a client-provided name: uwsgi:80734:6d3582b2-acf0-4b87-a751-aac239546b2e
+2025-07-30 08:47:04.123927+00:00 [info] <0.1158.0> connection <0.1158.0> (192.168.1.114:40178 -> 192.168.1.114:5672 - uwsgi:80734:6d3582b2-acf0-4b87-a751-aac239546b2e): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:47:04.193045+00:00 [info] <0.1180.0> accepting AMQP connection <0.1180.0> (192.168.1.114:40190 -> 192.168.1.114:5672)
+2025-07-30 08:47:04.194055+00:00 [info] <0.1180.0> connection <0.1180.0> (192.168.1.114:40190 -> 192.168.1.114:5672) has a client-provided name: uwsgi:80733:9fddd7ca-c3f9-434f-9e48-f055efbc1651
+2025-07-30 08:47:04.194605+00:00 [info] <0.1180.0> connection <0.1180.0> (192.168.1.114:40190 -> 192.168.1.114:5672 - uwsgi:80733:9fddd7ca-c3f9-434f-9e48-f055efbc1651): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:47:05.512079+00:00 [info] <0.1194.0> accepting AMQP connection <0.1194.0> (192.168.1.114:40198 -> 192.168.1.114:5672)
+2025-07-30 08:47:05.513029+00:00 [info] <0.1194.0> connection <0.1194.0> (192.168.1.114:40198 -> 192.168.1.114:5672) has a client-provided name: uwsgi:80733:bb715fb6-ae81-4aad-a2e7-80111fdc6e55
+2025-07-30 08:47:05.513582+00:00 [info] <0.1194.0> connection <0.1194.0> (192.168.1.114:40198 -> 192.168.1.114:5672 - uwsgi:80733:bb715fb6-ae81-4aad-a2e7-80111fdc6e55): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:47:05.559135+00:00 [info] <0.1208.0> accepting AMQP connection <0.1208.0> (192.168.1.114:40210 -> 192.168.1.114:5672)
+2025-07-30 08:47:05.560013+00:00 [info] <0.1208.0> connection <0.1208.0> (192.168.1.114:40210 -> 192.168.1.114:5672) has a client-provided name: uwsgi:80734:a701ac11-bee2-49f7-b70b-2efef24a6e18
+2025-07-30 08:47:05.560472+00:00 [info] <0.1208.0> connection <0.1208.0> (192.168.1.114:40210 -> 192.168.1.114:5672 - uwsgi:80734:a701ac11-bee2-49f7-b70b-2efef24a6e18): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:47:07.647727+00:00 [info] <0.1222.0> accepting AMQP connection <0.1222.0> (192.168.1.114:41064 -> 192.168.1.114:5672)
+2025-07-30 08:47:07.648575+00:00 [info] <0.1222.0> connection <0.1222.0> (192.168.1.114:41064 -> 192.168.1.114:5672) has a client-provided name: nova-compute:79862:dae09016-b96e-4489-8343-4fa3c4dc378b
+2025-07-30 08:47:07.649299+00:00 [info] <0.1222.0> connection <0.1222.0> (192.168.1.114:41064 -> 192.168.1.114:5672 - nova-compute:79862:dae09016-b96e-4489-8343-4fa3c4dc378b): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:48:44.412427+00:00 [info] <0.1266.0> accepting AMQP connection <0.1266.0> (192.168.1.114:33914 -> 192.168.1.114:5672)
+2025-07-30 08:48:44.413401+00:00 [info] <0.1266.0> connection <0.1266.0> (192.168.1.114:33914 -> 192.168.1.114:5672) has a client-provided name: uwsgi:68907:19da2002-5de4-4bd9-8549-7303084226f2
+2025-07-30 08:48:44.414104+00:00 [info] <0.1266.0> connection <0.1266.0> (192.168.1.114:33914 -> 192.168.1.114:5672 - uwsgi:68907:19da2002-5de4-4bd9-8549-7303084226f2): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:50:00.643072+00:00 [info] <0.1286.0> accepting AMQP connection <0.1286.0> (192.168.1.114:36062 -> 192.168.1.114:5672)
+2025-07-30 08:50:00.647758+00:00 [info] <0.1286.0> connection <0.1286.0> (192.168.1.114:36062 -> 192.168.1.114:5672) has a client-provided name: manila-scheduler:90926:7fecce08-a14a-4602-9302-81e4d74883be
+2025-07-30 08:50:00.648225+00:00 [info] <0.1286.0> connection <0.1286.0> (192.168.1.114:36062 -> 192.168.1.114:5672 - manila-scheduler:90926:7fecce08-a14a-4602-9302-81e4d74883be): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:50:00.662675+00:00 [info] <0.1324.0> accepting AMQP connection <0.1324.0> (192.168.1.114:36068 -> 192.168.1.114:5672)
+2025-07-30 08:50:00.663457+00:00 [info] <0.1324.0> connection <0.1324.0> (192.168.1.114:36068 -> 192.168.1.114:5672) has a client-provided name: manila-scheduler:90926:747e133e-dd20-4472-a45c-876faf419008
+2025-07-30 08:50:00.663848+00:00 [info] <0.1324.0> connection <0.1324.0> (192.168.1.114:36068 -> 192.168.1.114:5672 - manila-scheduler:90926:747e133e-dd20-4472-a45c-876faf419008): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:50:01.271049+00:00 [info] <0.1338.0> accepting AMQP connection <0.1338.0> (192.168.1.114:36074 -> 192.168.1.114:5672)
+2025-07-30 08:50:01.271927+00:00 [info] <0.1338.0> connection <0.1338.0> (192.168.1.114:36074 -> 192.168.1.114:5672) has a client-provided name: manila-share:92008:3f8a83bd-af8b-46c9-a73b-7ac2f8bb5ba7
+2025-07-30 08:50:01.272374+00:00 [info] <0.1338.0> connection <0.1338.0> (192.168.1.114:36074 -> 192.168.1.114:5672 - manila-share:92008:3f8a83bd-af8b-46c9-a73b-7ac2f8bb5ba7): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:50:01.277212+00:00 [info] <0.1351.0> accepting AMQP connection <0.1351.0> (192.168.1.114:36088 -> 192.168.1.114:5672)
+2025-07-30 08:50:01.278027+00:00 [info] <0.1351.0> connection <0.1351.0> (192.168.1.114:36088 -> 192.168.1.114:5672) has a client-provided name: manila-share:92008:9528e1e3-67ee-40d8-9037-e90ba71da2eb
+2025-07-30 08:50:01.278399+00:00 [info] <0.1351.0> connection <0.1351.0> (192.168.1.114:36088 -> 192.168.1.114:5672 - manila-share:92008:9528e1e3-67ee-40d8-9037-e90ba71da2eb): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:50:01.416040+00:00 [info] <0.1387.0> accepting AMQP connection <0.1387.0> (192.168.1.114:36092 -> 192.168.1.114:5672)
+2025-07-30 08:50:01.417047+00:00 [info] <0.1387.0> connection <0.1387.0> (192.168.1.114:36092 -> 192.168.1.114:5672) has a client-provided name: manila-data:91422:e0afe1be-e312-482b-b385-eaa9b276be19
+2025-07-30 08:50:01.417575+00:00 [info] <0.1387.0> connection <0.1387.0> (192.168.1.114:36092 -> 192.168.1.114:5672 - manila-data:91422:e0afe1be-e312-482b-b385-eaa9b276be19): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:50:16.383119+00:00 [info] <0.1424.0> accepting AMQP connection <0.1424.0> (192.168.1.114:43296 -> 192.168.1.114:5672)
+2025-07-30 08:50:16.384317+00:00 [info] <0.1424.0> connection <0.1424.0> (192.168.1.114:43296 -> 192.168.1.114:5672) has a client-provided name: uwsgi:83922:2862ea90-d9cc-4df7-b98c-860c71ea97dc
+2025-07-30 08:50:16.384738+00:00 [info] <0.1424.0> connection <0.1424.0> (192.168.1.114:43296 -> 192.168.1.114:5672 - uwsgi:83922:2862ea90-d9cc-4df7-b98c-860c71ea97dc): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:50:19.603734+00:00 [info] <0.1437.0> accepting AMQP connection <0.1437.0> (192.168.1.114:43310 -> 192.168.1.114:5672)
+2025-07-30 08:50:19.604913+00:00 [info] <0.1437.0> connection <0.1437.0> (192.168.1.114:43310 -> 192.168.1.114:5672) has a client-provided name: uwsgi:83921:cdcba0b5-5882-4ac4-b130-e76b5fca213f
+2025-07-30 08:50:19.605320+00:00 [info] <0.1437.0> connection <0.1437.0> (192.168.1.114:43310 -> 192.168.1.114:5672 - uwsgi:83921:cdcba0b5-5882-4ac4-b130-e76b5fca213f): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:51:23.784302+00:00 [info] <0.1451.0> accepting AMQP connection <0.1451.0> (192.168.1.114:43998 -> 192.168.1.114:5672)
+2025-07-30 08:51:23.785155+00:00 [info] <0.1451.0> connection <0.1451.0> (192.168.1.114:43998 -> 192.168.1.114:5672) has a client-provided name: uwsgi:83921:c6b17f24-d401-4b2a-8ce0-906f85d20642
+2025-07-30 08:51:23.785563+00:00 [info] <0.1451.0> connection <0.1451.0> (192.168.1.114:43998 -> 192.168.1.114:5672 - uwsgi:83921:c6b17f24-d401-4b2a-8ce0-906f85d20642): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:51:24.303729+00:00 [info] <0.1470.0> accepting AMQP connection <0.1470.0> (192.168.1.114:44004 -> 192.168.1.114:5672)
+2025-07-30 08:51:24.304647+00:00 [info] <0.1470.0> connection <0.1470.0> (192.168.1.114:44004 -> 192.168.1.114:5672) has a client-provided name: uwsgi:83922:ff27631f-7fff-4dcf-b1fd-6933423e271f
+2025-07-30 08:51:24.305126+00:00 [info] <0.1470.0> connection <0.1470.0> (192.168.1.114:44004 -> 192.168.1.114:5672 - uwsgi:83922:ff27631f-7fff-4dcf-b1fd-6933423e271f): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:51:44.416666+00:00 [error] <0.1266.0> closing AMQP connection <0.1266.0> (192.168.1.114:33914 -> 192.168.1.114:5672 - uwsgi:68907:19da2002-5de4-4bd9-8549-7303084226f2):
+2025-07-30 08:51:44.416666+00:00 [error] <0.1266.0> missed heartbeats from client, timeout: 60s
+2025-07-30 08:55:30.461271+00:00 [info] <0.1503.0> accepting AMQP connection <0.1503.0> (192.168.1.114:36094 -> 192.168.1.114:5672)
+2025-07-30 08:55:30.462514+00:00 [info] <0.1503.0> connection <0.1503.0> (192.168.1.114:36094 -> 192.168.1.114:5672) has a client-provided name: uwsgi:68908:1a93605f-99c9-474e-9615-b1e52b33186a
+2025-07-30 08:55:30.463311+00:00 [info] <0.1503.0> connection <0.1503.0> (192.168.1.114:36094 -> 192.168.1.114:5672 - uwsgi:68908:1a93605f-99c9-474e-9615-b1e52b33186a): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:30.537996+00:00 [info] <0.1517.0> accepting AMQP connection <0.1517.0> (192.168.1.114:36106 -> 192.168.1.114:5672)
+2025-07-30 08:55:30.538851+00:00 [info] <0.1517.0> connection <0.1517.0> (192.168.1.114:36106 -> 192.168.1.114:5672) has a client-provided name: uwsgi:68907:19da2002-5de4-4bd9-8549-7303084226f2
+2025-07-30 08:55:30.539436+00:00 [info] <0.1517.0> connection <0.1517.0> (192.168.1.114:36106 -> 192.168.1.114:5672 - uwsgi:68907:19da2002-5de4-4bd9-8549-7303084226f2): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:30.967648+00:00 [info] <0.1530.0> accepting AMQP connection <0.1530.0> (192.168.1.114:36122 -> 192.168.1.114:5672)
+2025-07-30 08:55:30.968537+00:00 [info] <0.1530.0> connection <0.1530.0> (192.168.1.114:36122 -> 192.168.1.114:5672) has a client-provided name: uwsgi:68907:637836e2-2b33-4b4f-a194-702bbfbf1fab
+2025-07-30 08:55:30.969133+00:00 [info] <0.1530.0> connection <0.1530.0> (192.168.1.114:36122 -> 192.168.1.114:5672 - uwsgi:68907:637836e2-2b33-4b4f-a194-702bbfbf1fab): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:30.985305+00:00 [info] <0.1543.0> accepting AMQP connection <0.1543.0> (192.168.1.114:36130 -> 192.168.1.114:5672)
+2025-07-30 08:55:30.986190+00:00 [info] <0.1543.0> connection <0.1543.0> (192.168.1.114:36130 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79515:f3207ce9-a0d4-4c1e-a3c2-09f800a7d4fb
+2025-07-30 08:55:30.986710+00:00 [info] <0.1543.0> connection <0.1543.0> (192.168.1.114:36130 -> 192.168.1.114:5672 - nova-conductor:79515:f3207ce9-a0d4-4c1e-a3c2-09f800a7d4fb): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:30.989819+00:00 [info] <0.1562.0> accepting AMQP connection <0.1562.0> (192.168.1.114:36140 -> 192.168.1.114:5672)
+2025-07-30 08:55:30.990402+00:00 [info] <0.1562.0> connection <0.1562.0> (192.168.1.114:36140 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79515:2973fce9-aeda-47c0-aba3-bf01db4213b6
+2025-07-30 08:55:30.990742+00:00 [info] <0.1562.0> connection <0.1562.0> (192.168.1.114:36140 -> 192.168.1.114:5672 - nova-conductor:79515:2973fce9-aeda-47c0-aba3-bf01db4213b6): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:31.091266+00:00 [info] <0.1575.0> accepting AMQP connection <0.1575.0> (192.168.1.114:36150 -> 192.168.1.114:5672)
+2025-07-30 08:55:31.095326+00:00 [info] <0.1575.0> connection <0.1575.0> (192.168.1.114:36150 -> 192.168.1.114:5672) has a client-provided name: nova-scheduler:77319:c7aea2c5-8704-4f75-a3e5-ff6471c0de10
+2025-07-30 08:55:31.095801+00:00 [info] <0.1575.0> connection <0.1575.0> (192.168.1.114:36150 -> 192.168.1.114:5672 - nova-scheduler:77319:c7aea2c5-8704-4f75-a3e5-ff6471c0de10): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:31.189258+00:00 [info] <0.1589.0> accepting AMQP connection <0.1589.0> (192.168.1.114:36156 -> 192.168.1.114:5672)
+2025-07-30 08:55:31.190066+00:00 [info] <0.1589.0> connection <0.1589.0> (192.168.1.114:36156 -> 192.168.1.114:5672) has a client-provided name: nova-scheduler:77319:06b3af46-73d2-4fb2-b605-815bd2fcf4f3
+2025-07-30 08:55:31.190477+00:00 [info] <0.1589.0> connection <0.1589.0> (192.168.1.114:36156 -> 192.168.1.114:5672 - nova-scheduler:77319:06b3af46-73d2-4fb2-b605-815bd2fcf4f3): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:31.621591+00:00 [info] <0.1602.0> accepting AMQP connection <0.1602.0> (192.168.1.114:36172 -> 192.168.1.114:5672)
+2025-07-30 08:55:31.622460+00:00 [info] <0.1602.0> connection <0.1602.0> (192.168.1.114:36172 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79515:d34c891b-7f9a-4999-8fc5-9ab64769356a
+2025-07-30 08:55:31.622894+00:00 [info] <0.1602.0> connection <0.1602.0> (192.168.1.114:36172 -> 192.168.1.114:5672 - nova-conductor:79515:d34c891b-7f9a-4999-8fc5-9ab64769356a): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:55:32.638711+00:00 [info] <0.1615.0> accepting AMQP connection <0.1615.0> (192.168.1.114:36188 -> 192.168.1.114:5672)
+2025-07-30 08:55:32.639537+00:00 [info] <0.1615.0> connection <0.1615.0> (192.168.1.114:36188 -> 192.168.1.114:5672) has a client-provided name: nova-compute:79862:a699c8b6-1ce1-4f5c-b205-b6b6ebc50e78
+2025-07-30 08:55:32.640002+00:00 [info] <0.1615.0> connection <0.1615.0> (192.168.1.114:36188 -> 192.168.1.114:5672 - nova-compute:79862:a699c8b6-1ce1-4f5c-b205-b6b6ebc50e78): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:55:36.061236+00:00 [info] <0.1629.0> accepting AMQP connection <0.1629.0> (192.168.1.114:36200 -> 192.168.1.114:5672)
+2025-07-30 08:55:36.062332+00:00 [info] <0.1629.0> connection <0.1629.0> (192.168.1.114:36200 -> 192.168.1.114:5672) has a client-provided name: uwsgi:68908:49cc3f95-6b29-43d3-9e42-6a0e2c1a848f
+2025-07-30 08:55:36.062848+00:00 [info] <0.1629.0> connection <0.1629.0> (192.168.1.114:36200 -> 192.168.1.114:5672 - uwsgi:68908:49cc3f95-6b29-43d3-9e42-6a0e2c1a848f): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:56:04.085014+00:00 [info] <0.1647.0> accepting AMQP connection <0.1647.0> (192.168.1.114:58844 -> 192.168.1.114:5672)
+2025-07-30 08:56:04.089517+00:00 [info] <0.1647.0> connection <0.1647.0> (192.168.1.114:58844 -> 192.168.1.114:5672) has a client-provided name: uwsgi:68907:623ef0c4-db70-4063-b0db-fa8084721f04
+2025-07-30 08:56:04.090073+00:00 [info] <0.1647.0> connection <0.1647.0> (192.168.1.114:58844 -> 192.168.1.114:5672 - uwsgi:68907:623ef0c4-db70-4063-b0db-fa8084721f04): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:56:44.702991+00:00 [info] <0.1661.0> accepting AMQP connection <0.1661.0> (192.168.1.114:34822 -> 192.168.1.114:5672)
+2025-07-30 08:56:44.703851+00:00 [info] <0.1661.0> connection <0.1661.0> (192.168.1.114:34822 -> 192.168.1.114:5672) has a client-provided name: uwsgi:68908:b1230249-40fb-4d91-a256-0bc7c05a01fc
+2025-07-30 08:56:44.704252+00:00 [info] <0.1661.0> connection <0.1661.0> (192.168.1.114:34822 -> 192.168.1.114:5672 - uwsgi:68908:b1230249-40fb-4d91-a256-0bc7c05a01fc): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:56:44.720581+00:00 [info] <0.1674.0> accepting AMQP connection <0.1674.0> (192.168.1.114:34832 -> 192.168.1.114:5672)
+2025-07-30 08:56:44.721631+00:00 [info] <0.1674.0> connection <0.1674.0> (192.168.1.114:34832 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79519:d12a3f0f-5c14-47d8-8804-26957b060fb1
+2025-07-30 08:56:44.722066+00:00 [info] <0.1674.0> connection <0.1674.0> (192.168.1.114:34832 -> 192.168.1.114:5672 - nova-conductor:79519:d12a3f0f-5c14-47d8-8804-26957b060fb1): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:56:44.725099+00:00 [info] <0.1693.0> accepting AMQP connection <0.1693.0> (192.168.1.114:34846 -> 192.168.1.114:5672)
+2025-07-30 08:56:44.725772+00:00 [info] <0.1693.0> connection <0.1693.0> (192.168.1.114:34846 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79519:c082c493-4d63-4c42-9b3d-f780abe4dd08
+2025-07-30 08:56:44.726120+00:00 [info] <0.1693.0> connection <0.1693.0> (192.168.1.114:34846 -> 192.168.1.114:5672 - nova-conductor:79519:c082c493-4d63-4c42-9b3d-f780abe4dd08): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:56:44.788676+00:00 [info] <0.1706.0> accepting AMQP connection <0.1706.0> (192.168.1.114:34860 -> 192.168.1.114:5672)
+2025-07-30 08:56:44.789585+00:00 [info] <0.1706.0> connection <0.1706.0> (192.168.1.114:34860 -> 192.168.1.114:5672) has a client-provided name: nova-scheduler:77314:cc17a795-2e0e-4c37-828d-2f5d98815a1c
+2025-07-30 08:56:44.790059+00:00 [info] <0.1706.0> connection <0.1706.0> (192.168.1.114:34860 -> 192.168.1.114:5672 - nova-scheduler:77314:cc17a795-2e0e-4c37-828d-2f5d98815a1c): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:56:44.904731+00:00 [info] <0.1720.0> accepting AMQP connection <0.1720.0> (192.168.1.114:34874 -> 192.168.1.114:5672)
+2025-07-30 08:56:44.905596+00:00 [info] <0.1720.0> connection <0.1720.0> (192.168.1.114:34874 -> 192.168.1.114:5672) has a client-provided name: nova-scheduler:77314:1bc3415b-34a2-47b4-a8a6-c526042b0adc
+2025-07-30 08:56:44.906060+00:00 [info] <0.1720.0> connection <0.1720.0> (192.168.1.114:34874 -> 192.168.1.114:5672 - nova-scheduler:77314:1bc3415b-34a2-47b4-a8a6-c526042b0adc): user 'stackrabbit' authenticated and granted access to vhost '/'
+2025-07-30 08:56:45.372971+00:00 [info] <0.1733.0> accepting AMQP connection <0.1733.0> (192.168.1.114:34886 -> 192.168.1.114:5672)
+2025-07-30 08:56:45.373880+00:00 [info] <0.1733.0> connection <0.1733.0> (192.168.1.114:34886 -> 192.168.1.114:5672) has a client-provided name: nova-conductor:79519:da0f4eb8-2904-4902-ba04-c6a017350ca9
+2025-07-30 08:56:45.374400+00:00 [info] <0.1733.0> connection <0.1733.0> (192.168.1.114:34886 -> 192.168.1.114:5672 - nova-conductor:79519:da0f4eb8-2904-4902-ba04-c6a017350ca9): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2025-07-30 08:57:53.169523+00:00 [info] <0.1751.0> accepting AMQP connection <0.1751.0> (192.168.1.114:38032 -> 192.168.1.114:5672)
+2025-07-30 08:57:53.170401+00:00 [info] <0.1751.0> connection <0.1751.0> (192.168.1.114:38032 -> 192.168.1.114:5672) has a client-provided name: nova-compute:79862:e60d0a77-29ea-4cf3-a33e-359f4c1c4369
+2025-07-30 08:57:53.170831+00:00 [info] <0.1751.0> connection <0.1751.0> (192.168.1.114:38032 -> 192.168.1.114:5672 - nova-compute:79862:e60d0a77-29ea-4cf3-a33e-359f4c1c4369): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'

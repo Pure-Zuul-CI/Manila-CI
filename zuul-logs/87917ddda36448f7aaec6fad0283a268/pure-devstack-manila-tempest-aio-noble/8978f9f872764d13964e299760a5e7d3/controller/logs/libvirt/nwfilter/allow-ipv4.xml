@@ -1,0 +1,11 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit allow-ipv4
+or other application using the libvirt API.
+-->
+
+<filter name='allow-ipv4' chain='ipv4' priority='-700'>
+  <uuid>56c83268-15ca-4f32-87c7-63b69d0240ed</uuid>
+  <rule action='accept' direction='inout' priority='500'/>
+</filter>

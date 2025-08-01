@@ -1,0 +1,48 @@
+Aug 01 12:41:26.243425 np0000032068 systemd[1]: Starting devstack@etcd.service - Devstack devstack@etcd.service...
+Aug 01 12:41:26.252410 np0000032068 etcd[45962]: WARNING: Package "github.com/golang/protobuf/protoc-gen-go/generator" is deprecated.
+Aug 01 12:41:26.252410 np0000032068 etcd[45962]:         A future release of golang/protobuf will delete this package,
+Aug 01 12:41:26.252410 np0000032068 etcd[45962]:         which has long been excluded from the compatibility promise.
+Aug 01 12:41:26.253153 np0000032068 etcd[45962]: [WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+Aug 01 12:41:26.253163 np0000032068 etcd[45962]: Running http and grpc server on single port. This is not recommended for production.
+Aug 01 12:41:26.253169 np0000032068 etcd[45962]: etcd Version: 3.4.27
+Aug 01 12:41:26.253295 np0000032068 etcd[45962]: [WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+Aug 01 12:41:26.253172 np0000032068 etcd[45962]: Git SHA: c92fb80f3
+Aug 01 12:41:26.253175 np0000032068 etcd[45962]: Go Version: go1.19.10
+Aug 01 12:41:26.253178 np0000032068 etcd[45962]: Go OS/Arch: linux/amd64
+Aug 01 12:41:26.253182 np0000032068 etcd[45962]: setting maximum number of CPUs to 8, total number of available CPUs is 8
+Aug 01 12:41:26.253208 np0000032068 etcd[45962]: Running http and grpc server on single port. This is not recommended for production.
+Aug 01 12:41:26.253358 np0000032068 etcd[45962]: name = np0000032068
+Aug 01 12:41:26.253361 np0000032068 etcd[45962]: data dir = /opt/stack/data/etcd
+Aug 01 12:41:26.253365 np0000032068 etcd[45962]: member dir = /opt/stack/data/etcd/member
+Aug 01 12:41:26.253368 np0000032068 etcd[45962]: heartbeat = 100ms
+Aug 01 12:41:26.253371 np0000032068 etcd[45962]: election = 1000ms
+Aug 01 12:41:26.253374 np0000032068 etcd[45962]: snapshot count = 100000
+Aug 01 12:41:26.253379 np0000032068 etcd[45962]: advertise client URLs = http://192.168.1.134:2379
+Aug 01 12:41:26.253400 np0000032068 etcd[45962]: check file permission: directory "/opt/stack/data/etcd" exist, but the permission is "dtrwxrwxrwx". The recommended permission is "-rwx------" to prevent possible unprivileged access to the data.
+Aug 01 12:41:26.269149 np0000032068 etcd[45962]: starting member 6860a4d7428083e9 in cluster 59d14f175323c537
+Aug 01 12:41:26.269553 np0000032068 etcd[45962]: raft2025/08/01 12:41:26 INFO: 6860a4d7428083e9 switched to configuration voters=()
+Aug 01 12:41:26.269584 np0000032068 etcd[45962]: raft2025/08/01 12:41:26 INFO: 6860a4d7428083e9 became follower at term 0
+Aug 01 12:41:26.269584 np0000032068 etcd[45962]: raft2025/08/01 12:41:26 INFO: newRaft 6860a4d7428083e9 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+Aug 01 12:41:26.269584 np0000032068 etcd[45962]: raft2025/08/01 12:41:26 INFO: 6860a4d7428083e9 became follower at term 1
+Aug 01 12:41:26.269632 np0000032068 etcd[45962]: raft2025/08/01 12:41:26 INFO: 6860a4d7428083e9 switched to configuration voters=(7521192622149370857)
+Aug 01 12:41:26.269972 np0000032068 etcd[45962]: simple token is not cryptographically signed
+Aug 01 12:41:26.270390 np0000032068 etcd[45962]: starting server... [version: 3.4.27, cluster version: to_be_decided]
+Aug 01 12:41:26.270811 np0000032068 etcd[45962]: raft2025/08/01 12:41:26 INFO: 6860a4d7428083e9 switched to configuration voters=(7521192622149370857)
+Aug 01 12:41:26.270496 np0000032068 etcd[45962]: 6860a4d7428083e9 as single-node; fast-forwarding 9 ticks (election ticks 10)
+Aug 01 12:41:26.270562 np0000032068 etcd[45962]: started to purge file, dir: /opt/stack/data/etcd/member/snap, suffix: snap.db, max: 5, interval: 30s
+Aug 01 12:41:26.270574 np0000032068 etcd[45962]: started to purge file, dir: /opt/stack/data/etcd/member/snap, suffix: snap, max: 5, interval: 30s
+Aug 01 12:41:26.270583 np0000032068 etcd[45962]: started to purge file, dir: /opt/stack/data/etcd/member/wal, suffix: wal, max: 5, interval: 30s
+Aug 01 12:41:26.270846 np0000032068 etcd[45962]: added member 6860a4d7428083e9 [http://192.168.1.134:2380] to cluster 59d14f175323c537
+Aug 01 12:41:26.272060 np0000032068 etcd[45962]: listening for peers on [::]:2380
+Aug 01 12:41:27.070495 np0000032068 etcd[45962]: raft2025/08/01 12:41:27 INFO: 6860a4d7428083e9 is starting a new election at term 1
+Aug 01 12:41:27.070495 np0000032068 etcd[45962]: raft2025/08/01 12:41:27 INFO: 6860a4d7428083e9 became candidate at term 2
+Aug 01 12:41:27.070495 np0000032068 etcd[45962]: raft2025/08/01 12:41:27 INFO: 6860a4d7428083e9 received MsgVoteResp from 6860a4d7428083e9 at term 2
+Aug 01 12:41:27.070495 np0000032068 etcd[45962]: raft2025/08/01 12:41:27 INFO: 6860a4d7428083e9 became leader at term 2
+Aug 01 12:41:27.070495 np0000032068 etcd[45962]: raft2025/08/01 12:41:27 INFO: raft.node: 6860a4d7428083e9 elected leader 6860a4d7428083e9 at term 2
+Aug 01 12:41:27.070666 np0000032068 etcd[45962]: published {Name:np0000032068 ClientURLs:[http://192.168.1.134:2379]} to cluster 59d14f175323c537
+Aug 01 12:41:27.070674 np0000032068 etcd[45962]: ready to serve client requests
+Aug 01 12:41:27.070707 np0000032068 etcd[45962]: setting up the initial cluster version to 3.4
+Aug 01 12:41:27.070772 np0000032068 etcd[45962]: set the initial cluster version to 3.4
+Aug 01 12:41:27.070812 np0000032068 etcd[45962]: enabled capabilities for version 3.4
+Aug 01 12:41:27.071008 np0000032068 systemd[1]: Started devstack@etcd.service - Devstack devstack@etcd.service.
+Aug 01 12:41:27.071130 np0000032068 etcd[45962]: serving insecure client requests on 192.168.1.134:2379, this is strongly discouraged!

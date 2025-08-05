@@ -1,0 +1,40 @@
+2025-08-05T05:36:29.591Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-05T05:36:29.592Z|00002|ovn_northd|INFO|OVN internal version is : [24.03.2-20.33.0-72.6]
+2025-08-05T05:36:29.592Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-05T05:36:29.592Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-05T05:36:29.592Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-05T05:36:29.592Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-05T05:36:29.592Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-05T05:36:29.592Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-05T05:36:29.599Z|00009|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-05T05:36:29.602Z|00010|memory_trim|INFO|Detected inactivity (last active 0 ms ago): trimming memory
+2025-08-05T05:36:59.633Z|00011|memory|INFO|7332 kB peak resident set size after 30.0 seconds
+2025-08-05T05:36:59.633Z|00012|memory|INFO|idl-cells-OVN_Northbound:12 idl-cells-OVN_Southbound:185
+2025-08-05T05:36:59.633Z|00013|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2025-08-05T05:44:03.590Z|00014|ovn_parallel_hmap|INFO|Setting thread count to 0
+2025-08-05T05:44:03.948Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-05T05:44:03.949Z|00002|ovn_northd|INFO|OVN internal version is : [24.03.2-20.33.0-72.6]
+2025-08-05T05:44:03.949Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-05T05:44:03.949Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-08-05T05:44:03.949Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-05T05:44:03.949Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-05T05:44:03.949Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-05T05:44:03.949Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-05T05:44:04.950Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-05T05:44:04.950Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-05T05:44:04.950Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-05T05:44:04.950Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-05T05:44:04.951Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-05T05:44:13.974Z|00014|memory|INFO|7220 kB peak resident set size after 10.0 seconds
+2025-08-05T05:44:13.975Z|00015|memory|INFO|idl-cells-OVN_Northbound:54 idl-cells-OVN_Southbound:222
+2025-08-05T05:45:21.310Z|00016|memory_trim|INFO|Detected inactivity (last active 30011 ms ago): trimming memory
+2025-08-05T05:46:21.768Z|00017|memory_trim|INFO|Detected inactivity (last active 30028 ms ago): trimming memory
+2025-08-05T05:47:00.575Z|00018|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2025-08-05T05:53:22.823Z|00019|memory_trim|INFO|Detected inactivity (last active 30025 ms ago): trimming memory
+2025-08-05T05:56:07.553Z|00020|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2025-08-05T05:58:32.859Z|00021|memory_trim|INFO|Detected inactivity (last active 30025 ms ago): trimming memory
+2025-08-05T06:01:27.214Z|00022|memory|INFO|peak resident set size grew 51% in last 1033.2 seconds, from 7220 kB to 10912 kB
+2025-08-05T06:01:27.214Z|00023|memory|INFO|idl-cells-OVN_Northbound:1154 idl-cells-OVN_Southbound:7795
+2025-08-05T06:01:27.214Z|00024|memory_trim|INFO|Detected inactivity (last active 30024 ms ago): trimming memory
+2025-08-05T06:03:01.504Z|00025|memory_trim|INFO|Detected inactivity (last active 30031 ms ago): trimming memory
+2025-08-05T06:04:06.994Z|00026|memory_trim|INFO|Detected inactivity (last active 30031 ms ago): trimming memory

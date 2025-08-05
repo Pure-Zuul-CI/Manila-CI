@@ -1,0 +1,8 @@
+2025-08-05T05:36:18.927Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-05T05:36:18.949Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 3.3.0
+2025-08-05T05:36:28.989Z|00003|memory|INFO|7348 kB peak resident set size after 10.1 seconds
+2025-08-05T05:36:28.989Z|00004|memory|INFO|atoms:186 cells:131 json-caches:1 monitors:3 n-weak-refs:0 sessions:2
+2025-08-05T05:44:02.456Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-05T05:44:02.459Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 3.3.0
+2025-08-05T05:44:12.480Z|00003|memory|INFO|7600 kB peak resident set size after 10.0 seconds
+2025-08-05T05:44:12.480Z|00004|memory|INFO|atoms:291 cells:233 json-caches:2 monitors:5 n-weak-refs:0 sessions:3

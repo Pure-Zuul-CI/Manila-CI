@@ -1,0 +1,42 @@
+2025-08-08T08:56:13.960Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-08T08:56:13.960Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-08T08:56:13.961Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-08T08:56:13.961Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-08-08T08:56:13.961Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-08T08:56:13.961Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-08T08:56:13.961Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-08T08:56:13.961Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-08T08:56:14.962Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-08T08:56:14.962Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-08T08:56:14.962Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-08T08:56:14.962Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-08T08:56:14.962Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-08T08:59:45.028Z|00014|memory|INFO|4256 kB peak resident set size after 211.1 seconds
+2025-08-08T08:59:45.367Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-08T08:59:45.367Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-08T08:59:45.368Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-08T08:59:45.368Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-08-08T08:59:45.368Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-08T08:59:45.368Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-08T08:59:45.368Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-08T08:59:45.368Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-08T08:59:46.369Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-08T08:59:46.369Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-08T08:59:46.369Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-08T08:59:46.369Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-08T08:59:46.370Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-08T08:59:54.179Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-08T08:59:54.179Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-08T08:59:54.180Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-08T08:59:54.180Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-08-08T08:59:54.180Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-08T08:59:54.180Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-08T08:59:54.180Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-08T08:59:54.180Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-08T08:59:55.181Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-08T08:59:55.181Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-08T08:59:55.181Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-08T08:59:55.181Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-08T08:59:55.181Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-08T09:00:04.239Z|00014|memory|INFO|4508 kB peak resident set size after 10.1 seconds
+2025-08-08T09:08:43.460Z|00015|memory|INFO|peak resident set size grew 62% in last 519.2 seconds, from 4508 kB to 7304 kB

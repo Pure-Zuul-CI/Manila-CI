@@ -1,0 +1,24 @@
+2025-08-10T14:19:32.372Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-10T14:19:32.416Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-10T14:19:42.462Z|00003|memory|INFO|6568 kB peak resident set size after 10.1 seconds
+2025-08-10T14:19:42.462Z|00004|memory|INFO|atoms:175 cells:130 monitors:3 sessions:2
+2025-08-10T14:23:16.299Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-10T14:23:16.303Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-10T14:23:16.305Z|00003|jsonrpc|WARN|unix#0: receive error: Connection reset by peer
+2025-08-10T14:23:16.305Z|00004|reconnect|WARN|unix#0: connection dropped (Connection reset by peer)
+2025-08-10T14:23:16.670Z|00005|jsonrpc|WARN|unix#5: receive error: Connection reset by peer
+2025-08-10T14:23:16.670Z|00006|reconnect|WARN|unix#5: connection dropped (Connection reset by peer)
+2025-08-10T14:23:16.919Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-10T14:23:16.922Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-10T14:23:16.924Z|00003|jsonrpc|WARN|unix#0: receive error: Connection reset by peer
+2025-08-10T14:23:16.924Z|00004|reconnect|WARN|unix#0: connection dropped (Connection reset by peer)
+2025-08-10T14:23:17.042Z|00005|jsonrpc|WARN|unix#8: receive error: Connection reset by peer
+2025-08-10T14:23:17.042Z|00006|reconnect|WARN|unix#8: connection dropped (Connection reset by peer)
+2025-08-10T14:23:19.901Z|00007|jsonrpc|WARN|unix#20: receive error: Connection reset by peer
+2025-08-10T14:23:19.901Z|00008|reconnect|WARN|unix#20: connection dropped (Connection reset by peer)
+2025-08-10T14:23:19.909Z|00009|jsonrpc|WARN|unix#21: receive error: Connection reset by peer
+2025-08-10T14:23:19.909Z|00010|reconnect|WARN|unix#21: connection dropped (Connection reset by peer)
+2025-08-10T14:23:26.939Z|00011|memory|INFO|6924 kB peak resident set size after 10.0 seconds
+2025-08-10T14:23:26.939Z|00012|memory|INFO|atoms:276 cells:232 monitors:5 sessions:3
+2025-08-10T14:23:35.550Z|00013|jsonrpc|WARN|unix#23: receive error: Connection reset by peer
+2025-08-10T14:23:35.550Z|00014|reconnect|WARN|unix#23: connection dropped (Connection reset by peer)

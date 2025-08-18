@@ -1,0 +1,170 @@
+2025-08-18T13:31:26.179Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2025-08-18T13:31:26.182Z|00002|ovs_numa|INFO|Discovered 8 CPU cores on NUMA node 0
+2025-08-18T13:31:26.182Z|00003|ovs_numa|INFO|Discovered 1 NUMA nodes and 8 CPU cores
+2025-08-18T13:31:26.182Z|00004|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2025-08-18T13:31:26.182Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2025-08-18T13:31:26.185Z|00006|bridge|INFO|ovs-vswitchd (Open vSwitch) 3.3.0
+2025-08-18T13:31:32.448Z|00007|dpif_netlink|INFO|Datapath dispatch mode: per-cpu
+2025-08-18T13:31:32.449Z|00008|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2025-08-18T13:31:32.449Z|00009|ofproto_dpif|INFO|system@ovs-system: VLAN header stack length probed as 2
+2025-08-18T13:31:32.449Z|00010|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 3
+2025-08-18T13:31:32.449Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2025-08-18T13:31:32.449Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2025-08-18T13:31:32.449Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports clone action
+2025-08-18T13:31:32.449Z|00014|ofproto_dpif|INFO|system@ovs-system: Max sample nesting level probed as 10
+2025-08-18T13:31:32.449Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports eventmask in conntrack action
+2025-08-18T13:31:32.449Z|00016|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_clear action
+2025-08-18T13:31:32.449Z|00017|ofproto_dpif|INFO|system@ovs-system: Max dp_hash algorithm probed to be 1
+2025-08-18T13:31:32.449Z|00018|ofproto_dpif|INFO|system@ovs-system: Datapath supports check_pkt_len action
+2025-08-18T13:31:32.449Z|00019|ofproto_dpif|INFO|system@ovs-system: Datapath supports timeout policy in conntrack action
+2025-08-18T13:31:32.449Z|00020|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zero_snat
+2025-08-18T13:31:32.449Z|00021|ofproto_dpif|INFO|system@ovs-system: Datapath supports add_mpls action
+2025-08-18T13:31:32.449Z|00022|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2025-08-18T13:31:32.449Z|00023|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2025-08-18T13:31:32.449Z|00024|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2025-08-18T13:31:32.449Z|00025|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2025-08-18T13:31:32.449Z|00026|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2025-08-18T13:31:32.449Z|00027|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple
+2025-08-18T13:31:32.449Z|00028|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple6
+2025-08-18T13:31:32.449Z|00029|ofproto_dpif|INFO|system@ovs-system: Datapath does not support IPv6 ND Extensions
+2025-08-18T13:31:32.449Z|00030|ofproto_dpif_upcall|INFO|Overriding n-handler-threads to 8, setting n-revalidator-threads to 3
+2025-08-18T13:31:32.449Z|00031|ofproto_dpif_upcall|INFO|Starting 11 threads
+2025-08-18T13:31:32.486Z|00032|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2025-08-18T13:31:32.486Z|00033|bridge|INFO|bridge br-int: using datapath ID 00004289c7621596
+2025-08-18T13:31:32.486Z|00034|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2025-08-18T13:31:36.491Z|00035|memory|INFO|115964 kB peak resident set size after 10.3 seconds
+2025-08-18T13:31:36.491Z|00036|memory|INFO|handlers:8 idl-cells-Open_vSwitch:101 ports:1 revalidators:3 rules:4
+2025-08-18T13:39:29.077Z|00037|bridge|INFO|bridge br-int: deleted interface br-int on port 65534
+2025-08-18T13:39:29.633Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2025-08-18T13:39:29.671Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2025-08-18T13:39:29.673Z|00002|ovs_numa|INFO|Discovered 8 CPU cores on NUMA node 0
+2025-08-18T13:39:29.673Z|00003|ovs_numa|INFO|Discovered 1 NUMA nodes and 8 CPU cores
+2025-08-18T13:39:29.673Z|00004|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2025-08-18T13:39:29.673Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2025-08-18T13:39:29.676Z|00006|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2025-08-18T13:39:29.676Z|00007|ofproto_dpif|INFO|system@ovs-system: VLAN header stack length probed as 2
+2025-08-18T13:39:29.676Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 3
+2025-08-18T13:39:29.676Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2025-08-18T13:39:29.676Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2025-08-18T13:39:29.676Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports clone action
+2025-08-18T13:39:29.676Z|00012|ofproto_dpif|INFO|system@ovs-system: Max sample nesting level probed as 10
+2025-08-18T13:39:29.676Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports eventmask in conntrack action
+2025-08-18T13:39:29.677Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_clear action
+2025-08-18T13:39:29.677Z|00015|ofproto_dpif|INFO|system@ovs-system: Max dp_hash algorithm probed to be 1
+2025-08-18T13:39:29.677Z|00016|ofproto_dpif|INFO|system@ovs-system: Datapath supports check_pkt_len action
+2025-08-18T13:39:29.677Z|00017|ofproto_dpif|INFO|system@ovs-system: Datapath supports timeout policy in conntrack action
+2025-08-18T13:39:29.677Z|00018|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zero_snat
+2025-08-18T13:39:29.677Z|00019|ofproto_dpif|INFO|system@ovs-system: Datapath supports add_mpls action
+2025-08-18T13:39:29.677Z|00020|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2025-08-18T13:39:29.677Z|00021|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2025-08-18T13:39:29.677Z|00022|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2025-08-18T13:39:29.677Z|00023|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2025-08-18T13:39:29.677Z|00024|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2025-08-18T13:39:29.677Z|00025|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple
+2025-08-18T13:39:29.677Z|00026|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple6
+2025-08-18T13:39:29.677Z|00027|ofproto_dpif|INFO|system@ovs-system: Datapath does not support IPv6 ND Extensions
+2025-08-18T13:39:29.677Z|00028|ofproto_dpif_upcall|INFO|Overriding n-handler-threads to 8, setting n-revalidator-threads to 3
+2025-08-18T13:39:29.677Z|00029|ofproto_dpif_upcall|INFO|Starting 11 threads
+2025-08-18T13:39:29.706Z|00030|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2025-08-18T13:39:29.706Z|00031|bridge|INFO|bridge br-int: using datapath ID 00004289c7621596
+2025-08-18T13:39:29.706Z|00032|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2025-08-18T13:39:29.706Z|00033|bridge|INFO|ovs-vswitchd (Open vSwitch) 3.3.0
+2025-08-18T13:39:29.851Z|00034|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2025-08-18T13:39:29.851Z|00035|bridge|INFO|bridge br-ex: using datapath ID 00009a0c09f9304a
+2025-08-18T13:39:29.851Z|00036|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2025-08-18T13:39:39.707Z|00037|memory|INFO|116348 kB peak resident set size after 10.0 seconds
+2025-08-18T13:39:39.707Z|00038|memory|INFO|handlers:8 idl-cells-Open_vSwitch:193 ofconns:4 ports:2 revalidators:3 rules:20
+2025-08-18T13:39:42.023Z|00039|connmgr|INFO|br-int<->unix#1: 12 flow_mods 10 s ago (11 adds, 1 deletes)
+2025-08-18T13:39:47.018Z|00040|bridge|INFO|bridge br-int: added interface patch-br-int-to-provnet-7d0afadc-011e-469b-91b2-5ac22233d7da on port 1
+2025-08-18T13:39:47.018Z|00041|bridge|INFO|bridge br-ex: added interface patch-provnet-7d0afadc-011e-469b-91b2-5ac22233d7da-to-br-int on port 1
+2025-08-18T13:40:42.023Z|00042|connmgr|INFO|br-int<->unix#1: 549 flow_mods in the 2 s starting 55 s ago (535 adds, 10 deletes, 4 modifications)
+2025-08-18T13:46:23.098Z|00043|connmgr|INFO|br-int<->unix#1: 1037 flow_mods in the 7 s starting 10 s ago (1015 adds, 16 deletes, 6 modifications)
+2025-08-18T13:46:50.313Z|00044|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:46:51.849Z|00045|bridge|INFO|bridge br-int: added interface tap7188f2a5-2e on port 2
+2025-08-18T13:46:53.642Z|00046|bridge|INFO|bridge br-int: added interface tap52b4b09f-70 on port 3
+2025-08-18T13:47:23.098Z|00047|connmgr|INFO|br-int<->unix#1: 1309 flow_mods in the last 56 s (866 adds, 437 deletes, 6 modifications)
+2025-08-18T13:48:23.097Z|00048|connmgr|INFO|br-int<->unix#1: 1674 flow_mods in the 9 s starting 59 s ago (700 adds, 970 deletes, 4 modifications)
+2025-08-18T13:49:15.123Z|00049|bridge|INFO|bridge br-int: deleted interface tap7188f2a5-2e on port 2
+2025-08-18T13:49:15.126Z|00050|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:49:15.130Z|00051|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:49:15.143Z|00052|bridge|INFO|bridge br-int: deleted interface tap52b4b09f-70 on port 3
+2025-08-18T13:49:15.146Z|00053|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:49:15.155Z|00054|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:49:15.160Z|00055|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:49:15.166Z|00056|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:49:15.327Z|00057|bridge|WARN|could not open network device tap7188f2a5-2e (No such device)
+2025-08-18T13:49:23.097Z|00058|connmgr|INFO|br-int<->unix#1: 883 flow_mods in the 49 s starting 50 s ago (31 adds, 852 deletes)
+2025-08-18T13:50:12.378Z|00059|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:50:13.907Z|00060|bridge|INFO|bridge br-int: added interface tapbda317f9-af on port 4
+2025-08-18T13:50:14.076Z|00061|bridge|INFO|bridge br-int: added interface tap85e7bfdf-30 on port 5
+2025-08-18T13:50:23.097Z|00062|connmgr|INFO|br-int<->unix#1: 1569 flow_mods in the 54 s starting 59 s ago (1194 adds, 369 deletes, 6 modifications)
+2025-08-18T13:52:03.265Z|00063|connmgr|INFO|br-int<->unix#1: 3 flow_mods 10 s ago (3 adds)
+2025-08-18T13:52:19.443Z|00064|bridge|INFO|bridge br-int: deleted interface tapbda317f9-af on port 4
+2025-08-18T13:52:19.446Z|00065|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:19.450Z|00066|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:19.459Z|00067|bridge|INFO|bridge br-int: deleted interface tap85e7bfdf-30 on port 5
+2025-08-18T13:52:19.462Z|00068|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:19.470Z|00069|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:19.474Z|00070|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:19.477Z|00071|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:19.645Z|00072|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:19.648Z|00073|bridge|WARN|could not open network device tapbda317f9-af (No such device)
+2025-08-18T13:52:36.330Z|00074|bridge|WARN|could not open network device tapea5a87c6-9c (No such device)
+2025-08-18T13:52:37.856Z|00075|bridge|INFO|bridge br-int: added interface tapea5a87c6-9c on port 6
+2025-08-18T13:52:38.042Z|00076|bridge|INFO|bridge br-int: added interface tap88077030-60 on port 7
+2025-08-18T13:53:03.266Z|00077|connmgr|INFO|br-int<->unix#1: 1047 flow_mods in the 25 s starting 48 s ago (522 adds, 523 deletes, 2 modifications)
+2025-08-18T13:54:25.165Z|00078|connmgr|INFO|br-int<->unix#1: 3 flow_mods 10 s ago (3 adds)
+2025-08-18T13:54:41.444Z|00079|bridge|INFO|bridge br-int: deleted interface tapea5a87c6-9c on port 6
+2025-08-18T13:54:41.446Z|00080|bridge|WARN|could not open network device tapea5a87c6-9c (No such device)
+2025-08-18T13:54:41.450Z|00081|bridge|WARN|could not open network device tapea5a87c6-9c (No such device)
+2025-08-18T13:54:41.467Z|00082|bridge|INFO|bridge br-int: deleted interface tap88077030-60 on port 7
+2025-08-18T13:54:41.470Z|00083|bridge|WARN|could not open network device tapea5a87c6-9c (No such device)
+2025-08-18T13:54:41.478Z|00084|bridge|WARN|could not open network device tapea5a87c6-9c (No such device)
+2025-08-18T13:54:41.482Z|00085|bridge|WARN|could not open network device tapea5a87c6-9c (No such device)
+2025-08-18T13:54:41.644Z|00086|netdev_linux|WARN|ethtool command ETHTOOL_GFLAGS on network device tapea5a87c6-9c failed: No such device
+2025-08-18T13:54:41.644Z|00087|dpif|WARN|system@ovs-system: failed to add tapea5a87c6-9c as port: No such device
+2025-08-18T13:54:41.644Z|00088|bridge|WARN|could not add network device tapea5a87c6-9c to ofproto (No such device)
+2025-08-18T13:54:41.648Z|00089|bridge|WARN|could not open network device tapea5a87c6-9c (No such device)
+2025-08-18T13:54:59.140Z|00090|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:55:00.667Z|00091|bridge|INFO|bridge br-int: added interface tap9f162bd3-3e on port 8
+2025-08-18T13:55:00.843Z|00092|bridge|INFO|bridge br-int: added interface tap5e097de1-f0 on port 9
+2025-08-18T13:55:01.259Z|00093|bridge|WARN|could not open network device tap883fd927-ac (No such device)
+2025-08-18T13:55:02.786Z|00094|bridge|INFO|bridge br-int: added interface tap883fd927-ac on port 10
+2025-08-18T13:55:25.165Z|00095|connmgr|INFO|br-int<->unix#1: 1130 flow_mods in the 27 s starting 47 s ago (594 adds, 534 deletes, 2 modifications)
+2025-08-18T13:56:52.816Z|00096|connmgr|INFO|br-int<->unix#1: 3 flow_mods 10 s ago (3 adds)
+2025-08-18T13:57:30.856Z|00097|bridge|INFO|bridge br-int: deleted interface tap883fd927-ac on port 10
+2025-08-18T13:57:30.858Z|00098|bridge|WARN|could not open network device tap883fd927-ac (No such device)
+2025-08-18T13:57:30.934Z|00099|bridge|WARN|could not open network device tap883fd927-ac (No such device)
+2025-08-18T13:57:31.056Z|00100|bridge|INFO|bridge br-int: added interface tap883fd927-ac on port 11
+2025-08-18T13:57:31.058Z|00101|bridge|INFO|bridge br-int: deleted interface tap883fd927-ac on port 11
+2025-08-18T13:57:31.060Z|00102|bridge|WARN|could not open network device tap883fd927-ac (No such device)
+2025-08-18T13:57:31.126Z|00103|bridge|WARN|could not open network device tap883fd927-ac (No such device)
+2025-08-18T13:57:31.257Z|00104|bridge|WARN|could not open network device tap883fd927-ac (No such device)
+2025-08-18T13:57:37.338Z|00105|bridge|INFO|bridge br-int: deleted interface tap9f162bd3-3e on port 8
+2025-08-18T13:57:37.340Z|00106|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:57:37.345Z|00107|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:57:37.354Z|00108|bridge|INFO|bridge br-int: deleted interface tap5e097de1-f0 on port 9
+2025-08-18T13:57:37.357Z|00109|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:57:37.365Z|00110|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:57:37.369Z|00111|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:57:37.540Z|00112|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:57:37.543Z|00113|bridge|WARN|could not open network device tap9f162bd3-3e (No such device)
+2025-08-18T13:57:52.815Z|00114|connmgr|INFO|br-int<->unix#1: 1179 flow_mods in the 46 s starting 47 s ago (515 adds, 662 deletes, 2 modifications)
+2025-08-18T13:57:54.819Z|00115|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T13:57:56.350Z|00116|bridge|INFO|bridge br-int: added interface tap195f1f1a-90 on port 12
+2025-08-18T13:57:56.517Z|00117|bridge|INFO|bridge br-int: added interface tap539850df-20 on port 13
+2025-08-18T13:58:52.815Z|00118|connmgr|INFO|br-int<->unix#1: 85 flow_mods in the 2 s starting 56 s ago (83 adds, 2 deletes)
+2025-08-18T13:59:52.815Z|00119|connmgr|INFO|br-int<->unix#1: 21 flow_mods in the 3 s starting 18 s ago (12 adds, 9 deletes)
+2025-08-18T14:00:11.519Z|00120|bridge|INFO|bridge br-int: deleted interface tap195f1f1a-90 on port 12
+2025-08-18T14:00:11.522Z|00121|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T14:00:11.538Z|00122|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T14:00:11.550Z|00123|bridge|INFO|bridge br-int: deleted interface tap539850df-20 on port 13
+2025-08-18T14:00:11.554Z|00124|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T14:00:11.563Z|00125|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T14:00:11.569Z|00126|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T14:00:11.573Z|00127|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T14:00:11.720Z|00128|netdev_linux|WARN|ethtool command ETHTOOL_GFLAGS on network device tap195f1f1a-90 failed: No such device
+2025-08-18T14:00:11.721Z|00129|dpif|WARN|system@ovs-system: failed to add tap195f1f1a-90 as port: No such device
+2025-08-18T14:00:11.721Z|00130|bridge|WARN|could not add network device tap195f1f1a-90 to ofproto (No such device)
+2025-08-18T14:00:11.724Z|00131|bridge|WARN|could not open network device tap195f1f1a-90 (No such device)
+2025-08-18T14:00:52.815Z|00132|connmgr|INFO|br-int<->unix#1: 1231 flow_mods in the 13 s starting 45 s ago (37 adds, 1194 deletes)

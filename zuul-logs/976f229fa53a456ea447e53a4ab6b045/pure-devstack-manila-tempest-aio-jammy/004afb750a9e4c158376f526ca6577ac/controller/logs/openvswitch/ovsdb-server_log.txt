@@ -1,0 +1,28 @@
+2025-08-25T15:37:44.761Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-25T15:37:44.801Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-25T15:37:54.840Z|00003|memory|INFO|6580 kB peak resident set size after 10.1 seconds
+2025-08-25T15:37:54.840Z|00004|memory|INFO|atoms:175 cells:130 monitors:3 sessions:2
+2025-08-25T15:41:15.226Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-25T15:41:15.229Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-25T15:41:15.231Z|00003|jsonrpc|WARN|unix#0: receive error: Connection reset by peer
+2025-08-25T15:41:15.231Z|00004|reconnect|WARN|unix#0: connection dropped (Connection reset by peer)
+2025-08-25T15:41:15.869Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-25T15:41:15.872Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-25T15:41:15.875Z|00003|jsonrpc|WARN|unix#0: receive error: Connection reset by peer
+2025-08-25T15:41:15.875Z|00004|reconnect|WARN|unix#0: connection dropped (Connection reset by peer)
+2025-08-25T15:41:15.984Z|00005|jsonrpc|WARN|unix#8: receive error: Connection reset by peer
+2025-08-25T15:41:15.984Z|00006|reconnect|WARN|unix#8: connection dropped (Connection reset by peer)
+2025-08-25T15:41:23.495Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-25T15:41:23.501Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-25T15:41:23.503Z|00003|jsonrpc|WARN|unix#0: receive error: Connection reset by peer
+2025-08-25T15:41:23.503Z|00004|reconnect|WARN|unix#0: connection dropped (Connection reset by peer)
+2025-08-25T15:41:23.911Z|00005|jsonrpc|WARN|unix#5: receive error: Connection reset by peer
+2025-08-25T15:41:23.911Z|00006|reconnect|WARN|unix#5: connection dropped (Connection reset by peer)
+2025-08-25T15:41:24.172Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2025-08-25T15:41:24.178Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-08-25T15:41:24.180Z|00003|jsonrpc|WARN|unix#0: receive error: Connection reset by peer
+2025-08-25T15:41:24.180Z|00004|reconnect|WARN|unix#0: connection dropped (Connection reset by peer)
+2025-08-25T15:41:26.437Z|00005|jsonrpc|WARN|unix#7: receive error: Connection reset by peer
+2025-08-25T15:41:26.438Z|00006|reconnect|WARN|unix#7: connection dropped (Connection reset by peer)
+2025-08-25T15:41:34.180Z|00007|memory|INFO|7076 kB peak resident set size after 10.0 seconds
+2025-08-25T15:41:34.180Z|00008|memory|INFO|atoms:276 cells:232 monitors:5 sessions:3

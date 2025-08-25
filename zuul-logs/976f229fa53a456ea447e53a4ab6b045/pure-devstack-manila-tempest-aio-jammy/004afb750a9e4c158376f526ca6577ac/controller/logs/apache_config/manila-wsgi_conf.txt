@@ -1,0 +1,1 @@
+ProxyPass "/share" "unix:/var/run/uwsgi/manila-wsgi.socket|uwsgi://uwsgi-uds-manila-wsgi" retry=0 acquire=1 

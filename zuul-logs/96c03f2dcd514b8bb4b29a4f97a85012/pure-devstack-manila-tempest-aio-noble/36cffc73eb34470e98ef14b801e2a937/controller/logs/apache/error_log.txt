@@ -1,0 +1,41 @@
+[Mon Aug 25 14:22:04.155413 2025] [mpm_event:notice] [pid 15089:tid 131399990933376] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:22:04.155493 2025] [core:notice] [pid 15089:tid 131399990933376] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:23:14.898992 2025] [mpm_event:notice] [pid 15089:tid 131399990933376] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:23:14.946304 2025] [mpm_event:notice] [pid 24994:tid 139793218156416] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:23:14.946380 2025] [core:notice] [pid 24994:tid 139793218156416] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:23:36.147108 2025] [mpm_event:notice] [pid 24994:tid 139793218156416] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:23:36.190314 2025] [mpm_event:notice] [pid 26943:tid 139286481639296] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:23:36.190385 2025] [core:notice] [pid 26943:tid 139286481639296] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:23:50.435080 2025] [mpm_event:notice] [pid 26943:tid 139286481639296] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:23:50.481449 2025] [mpm_event:notice] [pid 29800:tid 124009964763008] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:23:50.481528 2025] [core:notice] [pid 29800:tid 124009964763008] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:23:50.592159 2025] [mpm_event:notice] [pid 29800:tid 124009964763008] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:23:50.643438 2025] [mpm_event:notice] [pid 29949:tid 123807449921408] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:23:50.643509 2025] [core:notice] [pid 29949:tid 123807449921408] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:24:56.139309 2025] [mpm_event:notice] [pid 29949:tid 123807449921408] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:24:56.188557 2025] [mpm_event:notice] [pid 37353:tid 132287720474496] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:24:56.188623 2025] [core:notice] [pid 37353:tid 132287720474496] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:25:06.080155 2025] [mpm_event:notice] [pid 37353:tid 132287720474496] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:25:06.123160 2025] [mpm_event:notice] [pid 41270:tid 128311201052544] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:25:06.123222 2025] [core:notice] [pid 41270:tid 128311201052544] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:25:45.790744 2025] [mpm_event:notice] [pid 41270:tid 128311201052544] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:25:45.840457 2025] [mpm_event:notice] [pid 48144:tid 129008613468032] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:25:45.840524 2025] [core:notice] [pid 48144:tid 129008613468032] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:25:45.979263 2025] [mpm_event:notice] [pid 48144:tid 129008613468032] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:25:46.034713 2025] [mpm_event:notice] [pid 48298:tid 128961051637632] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Aug 25 14:25:46.034799 2025] [core:notice] [pid 48298:tid 128961051637632] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:25:46.156674 2025] [mpm_event:notice] [pid 48298:tid 128961051637632] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:25:46.210274 2025] [mpm_event:notice] [pid 48425:tid 128721008822144] AH00489: Apache/2.4.58 (Ubuntu) OpenSSL/3.0.13 configured -- resuming normal operations
+[Mon Aug 25 14:25:46.210367 2025] [core:notice] [pid 48425:tid 128721008822144] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:25:46.394201 2025] [mpm_event:notice] [pid 48425:tid 128721008822144] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:25:46.454495 2025] [mpm_event:notice] [pid 48593:tid 126448227669888] AH00489: Apache/2.4.58 (Ubuntu) OpenSSL/3.0.13 configured -- resuming normal operations
+[Mon Aug 25 14:25:46.454510 2025] [core:notice] [pid 48593:tid 126448227669888] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:25:56.800973 2025] [mpm_event:notice] [pid 48593:tid 126448227669888] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:25:56.862230 2025] [mpm_event:notice] [pid 49813:tid 128711575680896] AH00489: Apache/2.4.58 (Ubuntu) OpenSSL/3.0.13 configured -- resuming normal operations
+[Mon Aug 25 14:25:56.862241 2025] [core:notice] [pid 49813:tid 128711575680896] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:27:04.819080 2025] [mpm_event:notice] [pid 49813:tid 128711575680896] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:27:04.876918 2025] [mpm_event:notice] [pid 68460:tid 131770196518784] AH00489: Apache/2.4.58 (Ubuntu) OpenSSL/3.0.13 configured -- resuming normal operations
+[Mon Aug 25 14:27:04.876929 2025] [core:notice] [pid 68460:tid 131770196518784] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Aug 25 14:28:12.141139 2025] [mpm_event:notice] [pid 68460:tid 131770196518784] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Aug 25 14:28:12.217390 2025] [mpm_event:notice] [pid 74491:tid 139455223822208] AH00489: Apache/2.4.58 (Ubuntu) OpenSSL/3.0.13 configured -- resuming normal operations
+[Mon Aug 25 14:28:12.217406 2025] [core:notice] [pid 74491:tid 139455223822208] AH00094: Command line: '/usr/sbin/apache2'

@@ -1,0 +1,306 @@
+Aug 26 15:31:18 np0000032591 sudo[1705]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-cqftlbukqpaupwkjrzujcidmfkfxfwrc ; /usr/bin/python3'
+Aug 26 15:31:18 np0000032591 sudo[1705]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:18 np0000032591 sudo[1705]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:18 np0000032591 sudo[1718]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-xcwifvtvxxhkcywafrmlzhtrddwipobt ; /usr/bin/python3'
+Aug 26 15:31:18 np0000032591 sudo[1718]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:18 np0000032591 sudo[1718]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:19 np0000032591 sudo[1736]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-peonxwgaelvcqimzsaytpujdmcgoaynz ; /usr/bin/python3'
+Aug 26 15:31:19 np0000032591 sudo[1736]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:19 np0000032591 sudo[1736]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:19 np0000032591 sudo[1745]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jegtjbbbytvqgbqakjdyixrlawddjzuh ; /usr/bin/python3'
+Aug 26 15:31:19 np0000032591 sudo[1745]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:19 np0000032591 sudo[1745]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:23 np0000032591 sudo[1765]:     zuul : PWD=/home/zuul ; USER=stack ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-oyiklnysrbpfsjlsolglxzpbdirqjnep ; /usr/bin/python3'
+Aug 26 15:31:23 np0000032591 sudo[1765]: pam_unix(sudo:session): session opened for user stack(uid=1001) by (uid=1000)
+Aug 26 15:31:23 np0000032591 sudo[1765]: pam_unix(sudo:session): session closed for user stack
+Aug 26 15:31:24 np0000032591 sudo[1781]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ebosyhldkvwbyjdmkzmocmuweoptcmda ; /usr/bin/python3'
+Aug 26 15:31:24 np0000032591 sudo[1781]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:24 np0000032591 sudo[1781]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:24 np0000032591 sudo[1791]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/apt.conf.d/99force-ipv4
+Aug 26 15:31:24 np0000032591 sudo[1791]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:24 np0000032591 sudo[1791]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:24 np0000032591 sudo[1796]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ejxaybtejwirqwupvbgxlzvlrtjomyoe ; /usr/bin/python3'
+Aug 26 15:31:24 np0000032591 sudo[1796]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:29 np0000032591 sudo[1796]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:29 np0000032591 sudo[2100]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rupfkxjjshfnevzotndcuvphrzuesyko ; /usr/bin/python3'
+Aug 26 15:31:29 np0000032591 sudo[2100]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:31:30 np0000032591 sudo[2100]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:31:30 np0000032591 sudo[2105]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-uynenoorzsedbwqeotmqedpfqrpsyzxz ; /usr/bin/python3'
+Aug 26 15:31:30 np0000032591 sudo[2105]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:33:03 np0000032591 sudo[2105]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:04 np0000032591 sudo[2172]:     zuul : PWD=/home/zuul ; USER=stack ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rlcpianiarnxllrusnqtywqpyomkzrqu ; /usr/bin/python3'
+Aug 26 15:33:04 np0000032591 sudo[2172]: pam_unix(sudo:session): session opened for user stack(uid=1001) by (uid=1000)
+Aug 26 15:33:05 np0000032591 sudo[2172]: pam_unix(sudo:session): session closed for user stack
+Aug 26 15:33:05 np0000032591 sudo[2186]:     zuul : PWD=/home/zuul ; USER=stack ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-gplkictxzxoflofzqudlaxfhdmdiklwg ; /usr/bin/python3'
+Aug 26 15:33:05 np0000032591 sudo[2186]: pam_unix(sudo:session): session opened for user stack(uid=1001) by (uid=1000)
+Aug 26 15:33:06 np0000032591 sudo[3891]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee /etc/devstack-version
+Aug 26 15:33:06 np0000032591 sudo[3891]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[3891]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[3955]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/grep -q ^#includedir.*/etc/sudoers.d /etc/sudoers
+Aug 26 15:33:06 np0000032591 sudo[3955]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[3955]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[3958]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee -a /etc/sudoers
+Aug 26 15:33:06 np0000032591 sudo[3958]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[3958]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[3982]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/chown root:root /tmp/tmp.aJ2hIAVSAo
+Aug 26 15:33:06 np0000032591 sudo[3982]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[3982]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[3986]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/mv /tmp/tmp.aJ2hIAVSAo /etc/sudoers.d/50_stack_sh
+Aug 26 15:33:06 np0000032591 sudo[3986]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[3986]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[3995]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/apt.conf.d/80retry
+Aug 26 15:33:06 np0000032591 sudo[3995]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[3995]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[4009]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/mkdir -p /opt/stack/logs
+Aug 26 15:33:06 np0000032591 sudo[4009]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[4009]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[4031]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/chown -R stack /opt/stack/logs
+Aug 26 15:33:06 np0000032591 sudo[4031]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[4031]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[4053]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/chmod 0755 /opt/stack/logs
+Aug 26 15:33:06 np0000032591 sudo[4053]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[4053]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[4061]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/mkdir -p /opt/stack/data
+Aug 26 15:33:06 np0000032591 sudo[4061]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[4061]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[4083]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/chown -R stack /opt/stack/data
+Aug 26 15:33:06 np0000032591 sudo[4083]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[4083]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[4105]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/chmod 0755 /opt/stack/data
+Aug 26 15:33:06 np0000032591 sudo[4105]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:06 np0000032591 sudo[4105]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:06 np0000032591 sudo[4178]:    stack : PWD=/opt/stack/devstack ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive http_proxy= https_proxy= no_proxy= ; COMMAND=/usr/bin/apt-get --option Dpkg::Options::=--force-confold --assume-yes install python3.10 python3.10-dev
+Aug 26 15:33:06 np0000032591 sudo[4178]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:10 np0000032591 sudo[4178]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:10 np0000032591 sudo[4743]:    stack : PWD=/opt/stack/devstack ; USER=root ; ENV=http_proxy= https_proxy= no_proxy= ; COMMAND=/usr/bin/apt-get update
+Aug 26 15:33:10 np0000032591 sudo[4743]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:11 np0000032591 sudo[4743]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:11 np0000032591 sudo[5024]:    stack : PWD=/opt/stack/devstack ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive http_proxy= https_proxy= no_proxy= ; COMMAND=/usr/bin/apt-get --option Dpkg::Options::=--force-confold --assume-yes install ksmtuned
+Aug 26 15:33:11 np0000032591 sudo[5024]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:13 np0000032591 sudo[5024]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:13 np0000032591 sudo[5157]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee /sys/kernel/mm/ksm/run
+Aug 26 15:33:13 np0000032591 sudo[5157]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:13 np0000032591 sudo[5157]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:13 np0000032591 sudo[5262]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/git config --system --add safe.directory /opt/stack/manila
+Aug 26 15:33:13 np0000032591 sudo[5262]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:13 np0000032591 sudo[5262]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:13 np0000032591 sudo[5337]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/git config --system --add safe.directory /opt/stack/manila-tempest-plugin
+Aug 26 15:33:13 np0000032591 sudo[5337]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:13 np0000032591 sudo[5337]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:14 np0000032591 sudo[7419]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/git config --system --add safe.directory /opt/stack/requirements
+Aug 26 15:33:14 np0000032591 sudo[7419]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:14 np0000032591 sudo[7419]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:14 np0000032591 sudo[7597]:    stack : PWD=/opt/stack/devstack ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive http_proxy= https_proxy= no_proxy= ; COMMAND=/usr/bin/apt-get --option Dpkg::Options::=--force-confold --assume-yes install apache2 apache2-dev bc bsdmainutils curl g++ gawk gcc gettext git graphviz iputils-ping libapache2-mod-proxy-uwsgi libffi-dev libjpeg-dev libpcre3-dev libpq-dev libssl-dev libsystemd-dev libxml2-dev libxslt1-dev libyaml-dev lsof openssh-server openssl pkg-config psmisc python3-dev python3-pip python3-systemd python3-venv tar tcpdump unzip uuid-runtime wget wget zlib1g-dev lvm2 qemu-utils thin-provisioning-tools lsscsi open-iscsi libkrb5-dev libldap2-dev libsasl2-dev memcached python3-mysqldb sqlite3 conntrack curl ebtables genisoimage iptables iputils-arping kpartx libjs-jquery-tablesorter parted pm-utils python3-mysqldb socat sqlite3 sudo vlan cryptsetup dosfstools genisoimage gir1.2-libosinfo-1.0 netcat-openbsd open-iscsi qemu-utils sg3-utils
+Aug 26 15:33:14 np0000032591 sudo[7597]:    stack : (command continued) sysfsutils acl dnsmasq-base dnsmasq-utils ebtables haproxy iptables iputils-arping iputils-ping postgresql-server-dev-all python3-mysqldb sqlite3 sudo vlan apache2 lvm2
+Aug 26 15:33:14 np0000032591 sudo[7597]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:57 np0000032591 sudo[7597]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:58 np0000032591 sudo[19504]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/rm -rf /usr/lib/python3/dist-packages/PyYAML-5.4.1.egg-info
+Aug 26 15:33:58 np0000032591 sudo[19504]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:58 np0000032591 sudo[19504]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:58 np0000032591 sudo[19508]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/rm -rf /usr/lib/python3/dist-packages/pyasn1_modules-*.egg-info
+Aug 26 15:33:58 np0000032591 sudo[19508]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:58 np0000032591 sudo[19508]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:58 np0000032591 sudo[19512]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/rm -rf /usr/lib/python3/dist-packages/simplejson-*.egg-info
+Aug 26 15:33:58 np0000032591 sudo[19512]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:58 np0000032591 sudo[19512]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:58 np0000032591 sudo[19550]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/cinder-manage /usr/local/bin
+Aug 26 15:33:58 np0000032591 sudo[19550]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:58 np0000032591 sudo[19550]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:58 np0000032591 sudo[19554]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/cinder-rtstool /usr/local/bin
+Aug 26 15:33:58 np0000032591 sudo[19554]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:58 np0000032591 sudo[19554]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:58 np0000032591 sudo[19558]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/glance /usr/local/bin
+Aug 26 15:33:58 np0000032591 sudo[19558]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:58 np0000032591 sudo[19558]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:59 np0000032591 sudo[19562]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/nova-manage /usr/local/bin
+Aug 26 15:33:59 np0000032591 sudo[19562]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:59 np0000032591 sudo[19562]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:59 np0000032591 sudo[19566]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/openstack /usr/local/bin
+Aug 26 15:33:59 np0000032591 sudo[19566]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:59 np0000032591 sudo[19566]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:59 np0000032591 sudo[19570]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/privsep-helper /usr/local/bin
+Aug 26 15:33:59 np0000032591 sudo[19570]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:59 np0000032591 sudo[19570]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:59 np0000032591 sudo[19574]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/rally /usr/local/bin
+Aug 26 15:33:59 np0000032591 sudo[19574]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:59 np0000032591 sudo[19574]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:33:59 np0000032591 sudo[19578]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/ln -sf /opt/stack/data/venv/bin/tox /usr/local/bin
+Aug 26 15:33:59 np0000032591 sudo[19578]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:33:59 np0000032591 sudo[19578]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:04 np0000032591 sudo[19744]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/grep -q ^\\[Journal\\] /etc/systemd/journald.conf
+Aug 26 15:34:04 np0000032591 sudo[19744]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:04 np0000032591 sudo[19744]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:04 np0000032591 sudo[19749]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/sed -ne '/^\\[Journal\\]/,/^\\[.*\\]/ { /^RateLimitBurst[ \\t]*=/ p; }' /etc/systemd/journald.conf
+Aug 26 15:34:04 np0000032591 sudo[19749]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:04 np0000032591 sudo[19749]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:04 np0000032591 sudo[19751]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/sed -i -e '/^\\[Journal\\]/ a\\#012RateLimitBurst = 0#012' /etc/systemd/journald.conf
+Aug 26 15:34:04 np0000032591 sudo[19751]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:04 np0000032591 sudo[19751]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:04 np0000032591 sudo[19755]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/systemctl restart systemd-journald
+Aug 26 15:34:04 np0000032591 sudo[19755]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:04 np0000032591 sudo[19755]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:16 np0000032591 sudo[20233]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/grep -q ^\\[Manager\\] /etc/systemd/system.conf
+Aug 26 15:34:16 np0000032591 sudo[20233]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:16 np0000032591 sudo[20233]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:16 np0000032591 sudo[20238]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/sed -ne '/^\\[Manager\\]/,/^\\[.*\\]/ { /^DefaultLimitNOFILE[ \\t]*=/ p; }' /etc/systemd/system.conf
+Aug 26 15:34:16 np0000032591 sudo[20238]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:16 np0000032591 sudo[20238]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:16 np0000032591 sudo[20240]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/sed -i -e '/^\\[Manager\\]/ a\\#012DefaultLimitNOFILE = 2048#012' /etc/systemd/system.conf
+Aug 26 15:34:16 np0000032591 sudo[20240]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:16 np0000032591 sudo[20240]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:16 np0000032591 sudo[20246]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+Aug 26 15:34:16 np0000032591 sudo[20246]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:16 np0000032591 sudo[20246]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:16 np0000032591 sudo[20337]:    stack : PWD=/opt/stack/devstack ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive http_proxy= https_proxy= no_proxy= ; COMMAND=/usr/bin/apt-get --option Dpkg::Options::=--force-confold --assume-yes install rabbitmq-server
+Aug 26 15:34:16 np0000032591 sudo[20337]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:25 np0000032591 sudo[20337]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:25 np0000032591 sudo[20921]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/rabbitmqctl list_users
+Aug 26 15:34:25 np0000032591 sudo[20921]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:25 np0000032591 sudo[20921]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:25 np0000032591 sudo[20998]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/rabbitmqctl add_user stackrabbit secretrabbit
+Aug 26 15:34:25 np0000032591 sudo[20998]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:26 np0000032591 sudo[20998]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:26 np0000032591 sudo[21062]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/rabbitmqctl set_permissions stackrabbit .* .* .*
+Aug 26 15:34:26 np0000032591 sudo[21062]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:26 np0000032591 sudo[21062]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:26 np0000032591 sudo[21130]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/rabbitmqctl change_password stackrabbit secretrabbit
+Aug 26 15:34:26 np0000032591 sudo[21130]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:26 np0000032591 sudo[21130]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:26 np0000032591 sudo[21198]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/rabbitmqctl delete_user guest
+Aug 26 15:34:26 np0000032591 sudo[21198]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:27 np0000032591 sudo[21198]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:27 np0000032591 sudo[21288]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/debconf-set-selections
+Aug 26 15:34:27 np0000032591 sudo[21288]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:27 np0000032591 sudo[21288]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:27 np0000032591 sudo[21403]:    stack : PWD=/opt/stack/devstack ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive http_proxy= https_proxy= no_proxy= ; COMMAND=/usr/bin/apt-get --option Dpkg::Options::=--force-confold --assume-yes install mysql-server
+Aug 26 15:34:27 np0000032591 sudo[21403]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:41 np0000032591 sudo[21403]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:42 np0000032591 sudo[22048]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/mkdir -p /opt/stack/bin
+Aug 26 15:34:42 np0000032591 sudo[22048]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:42 np0000032591 sudo[22048]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:42 np0000032591 sudo[22052]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/mkdir -p /opt/stack/data/etcd
+Aug 26 15:34:42 np0000032591 sudo[22052]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:42 np0000032591 sudo[22052]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:42 np0000032591 sudo[22058]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/mount -t tmpfs -o nodev,nosuid,size=512M tmpfs /opt/stack/data/etcd
+Aug 26 15:34:42 np0000032591 sudo[22058]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:42 np0000032591 sudo[22058]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:43 np0000032591 sudo[22100]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/cp /opt/stack/devstack/files/etcd-v3.4.27-linux-amd64/etcd /opt/stack/bin/etcd
+Aug 26 15:34:43 np0000032591 sudo[22100]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:43 np0000032591 sudo[22100]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:43 np0000032591 sudo[22104]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/cp /opt/stack/devstack/files/etcd-v3.4.27-linux-amd64/etcdctl /opt/stack/bin/etcdctl
+Aug 26 15:34:43 np0000032591 sudo[22104]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:43 np0000032591 sudo[22104]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:44 np0000032591 sudo[22301]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/cp /opt/stack/data/CA/int-ca/ca-chain.pem /usr/local/share/ca-certificates/devstack-int.crt
+Aug 26 15:34:44 np0000032591 sudo[22301]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:44 np0000032591 sudo[22301]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:44 np0000032591 sudo[22305]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/cp /opt/stack/data/CA/root-ca/cacert.pem /usr/local/share/ca-certificates/devstack-root.crt
+Aug 26 15:34:44 np0000032591 sudo[22305]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:44 np0000032591 sudo[22305]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:44 np0000032591 sudo[22309]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/update-ca-certificates
+Aug 26 15:34:44 np0000032591 sudo[22309]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:44 np0000032591 sudo[22309]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:50 np0000032591 sudo[24368]:    stack : PWD=/opt/stack/devstack ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive http_proxy= https_proxy= no_proxy= ; COMMAND=/usr/bin/apt-get --option Dpkg::Options::=--force-confold --assume-yes install uwsgi uwsgi-plugin-python3 libapache2-mod-proxy-uwsgi
+Aug 26 15:34:50 np0000032591 sudo[24368]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:54 np0000032591 sudo[24368]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:54 np0000032591 sudo[24561]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/a2enmod proxy
+Aug 26 15:34:54 np0000032591 sudo[24561]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:54 np0000032591 sudo[24561]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:54 np0000032591 sudo[24572]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/a2enmod proxy_uwsgi
+Aug 26 15:34:54 np0000032591 sudo[24572]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:54 np0000032591 sudo[24572]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:34:55 np0000032591 sudo[24589]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Aug 26 15:34:55 np0000032591 sudo[24589]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:34:55 np0000032591 sudo[24589]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:03 np0000032591 sudo[25221]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/git config --system --add safe.directory /opt/stack/keystone
+Aug 26 15:35:03 np0000032591 sudo[25221]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:03 np0000032591 sudo[25221]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:15 np0000032591 sudo[25446]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/install -d -o stack /etc/keystone
+Aug 26 15:35:15 np0000032591 sudo[25446]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:15 np0000032591 sudo[25446]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:15 np0000032591 sudo[26063]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/mkdir -p /etc/tmpfiles.d/
+Aug 26 15:35:15 np0000032591 sudo[26063]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:15 np0000032591 sudo[26063]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:15 np0000032591 sudo[26066]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee /etc/tmpfiles.d/uwsgi.conf
+Aug 26 15:35:15 np0000032591 sudo[26066]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:15 np0000032591 sudo[26066]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:15 np0000032591 sudo[26074]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/systemd-tmpfiles --create /etc/tmpfiles.d/uwsgi.conf
+Aug 26 15:35:15 np0000032591 sudo[26074]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:15 np0000032591 sudo[26074]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:15 np0000032591 sudo[26463]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee -a /etc/apache2/sites-available/keystone-wsgi-public.conf
+Aug 26 15:35:15 np0000032591 sudo[26463]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:15 np0000032591 sudo[26463]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:16 np0000032591 sudo[26493]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/a2ensite keystone-wsgi-public
+Aug 26 15:35:16 np0000032591 sudo[26493]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:16 np0000032591 sudo[26493]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:16 np0000032591 sudo[26510]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Aug 26 15:35:16 np0000032591 sudo[26510]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:16 np0000032591 sudo[26510]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:17 np0000032591 sudo[27006]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/install -d -o stack /etc/glance
+Aug 26 15:35:17 np0000032591 sudo[27006]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:17 np0000032591 sudo[27006]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:17 np0000032591 sudo[27062]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/git config --system --add safe.directory /opt/stack/glance
+Aug 26 15:35:17 np0000032591 sudo[27062]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:17 np0000032591 sudo[27062]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:26 np0000032591 sudo[27302]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/install -d -o stack /etc/glance /etc/glance/metadefs
+Aug 26 15:35:26 np0000032591 sudo[27302]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:26 np0000032591 sudo[27302]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:26 np0000032591 sudo[28656]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/lsof -i :60999
+Aug 26 15:35:26 np0000032591 sudo[28656]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[28656]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29162]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/a2enmod proxy_http
+Aug 26 15:35:27 np0000032591 sudo[29162]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29162]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29179]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Aug 26 15:35:27 np0000032591 sudo[29179]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29179]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29265]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee /etc/apache2/sites-available/glance-wsgi-api.conf
+Aug 26 15:35:27 np0000032591 sudo[29265]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29265]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29272]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee -a /etc/apache2/sites-available/glance-wsgi-api.conf
+Aug 26 15:35:27 np0000032591 sudo[29272]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29272]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29279]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/tee -a /etc/apache2/sites-available/glance-wsgi-api.conf
+Aug 26 15:35:27 np0000032591 sudo[29279]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29279]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29309]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/a2ensite glance-wsgi-api
+Aug 26 15:35:27 np0000032591 sudo[29309]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29309]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29326]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Aug 26 15:35:27 np0000032591 sudo[29326]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29326]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:27 np0000032591 sudo[29629]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/usr/bin/git config --system --add safe.directory /opt/stack/neutron
+Aug 26 15:35:27 np0000032591 sudo[29629]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:27 np0000032591 sudo[29629]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:36 np0000032591 sudo[29820]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/iptables --line-numbers -L -nv -t filter
+Aug 26 15:35:36 np0000032591 sudo[29820]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:36 np0000032591 sudo[29820]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:36 np0000032591 sudo[29823]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/iptables --line-numbers -L -nv -t nat
+Aug 26 15:35:36 np0000032591 sudo[29823]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:36 np0000032591 sudo[29823]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:36 np0000032591 sudo[29826]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/iptables --line-numbers -L -nv -t mangle
+Aug 26 15:35:36 np0000032591 sudo[29826]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:36 np0000032591 sudo[29826]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:36 np0000032591 sudo[29829]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/ebtables -t filter -L
+Aug 26 15:35:36 np0000032591 sudo[29829]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:36 np0000032591 sudo[29829]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:36 np0000032591 sudo[29832]:    stack : PWD=/opt/stack/devstack ; USER=root ; COMMAND=/sbin/ebtables -t nat -L
+Aug 26 15:35:36 np0000032591 sudo[29832]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Aug 26 15:35:36 np0000032591 sudo[29832]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:37 np0000032591 sudo[2186]: pam_unix(sudo:session): session closed for user stack
+Aug 26 15:35:38 np0000032591 sudo[29871]:     zuul : TTY=pts/0 ; PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-fsvnkftohmciasjixpoetcetuyggrzxa ;  /home/zuul/.ansible/tmp/ansible-tmp-1756222538.192672-6-80082476336640/find-testr.sh /opt/stack/tempest'
+Aug 26 15:35:38 np0000032591 sudo[29871]: pam_unix(sudo:session): session opened for user root(uid=0) by zuul(uid=1000)
+Aug 26 15:35:38 np0000032591 sudo[29871]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:38 np0000032591 sudo[29879]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-frdbcrsdzipalcvngfjkdbknounkfvtx ; /usr/bin/python3'
+Aug 26 15:35:38 np0000032591 sudo[29879]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:35:38 np0000032591 sudo[29879]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:38 np0000032591 sudo[29886]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-uuiwquvtvnkqdcvnfrttbytbuypbbjqr ; /usr/bin/python3'
+Aug 26 15:35:38 np0000032591 sudo[29886]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:35:38 np0000032591 sudo[29886]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:41 np0000032591 sudo[29908]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-xbloegwjwpywrvfnhlxrqljyielqkyac ; /usr/bin/python3'
+Aug 26 15:35:41 np0000032591 sudo[29908]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:35:41 np0000032591 sudo[29908]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:41 np0000032591 sudo[29914]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ekyjunmukfceiavbyuujtmyvadsduzci ; /usr/bin/python3'
+Aug 26 15:35:41 np0000032591 sudo[29914]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 26 15:35:42 np0000032591 sudo[29914]: pam_unix(sudo:session): session closed for user root
+Aug 26 15:35:42 np0000032591 sudo[29927]:     zuul : PWD=/home/zuul ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-evxzpgvthpwcmaqnibcracvmouovarxq ; /usr/bin/python3'
+Aug 26 15:35:42 np0000032591 sudo[29927]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)

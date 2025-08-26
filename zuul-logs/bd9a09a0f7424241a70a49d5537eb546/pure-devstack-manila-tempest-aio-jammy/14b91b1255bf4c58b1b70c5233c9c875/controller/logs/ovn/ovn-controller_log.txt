@@ -1,0 +1,82 @@
+2025-08-26T09:41:45.407Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-controller.log
+2025-08-26T09:41:45.408Z|00002|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2025-08-26T09:41:45.408Z|00003|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2025-08-26T09:41:45.409Z|00004|main|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-26T09:41:45.409Z|00005|main|INFO|OVS IDL reconnected, force recompute.
+2025-08-26T09:41:45.409Z|00006|main|INFO|OVNSB IDL reconnected, force recompute.
+2025-08-26T09:45:12.573Z|00007|memory|INFO|4716 kB peak resident set size after 207.2 seconds
+2025-08-26T09:45:12.573Z|00008|memory|INFO|idl-cells:100
+2025-08-26T09:45:12.573Z|00009|jsonrpc|WARN|unix:/var/run/openvswitch/db.sock: send error: Broken pipe
+2025-08-26T09:45:12.573Z|00010|reconnect|WARN|unix:/var/run/openvswitch/db.sock: connection dropped (Broken pipe)
+2025-08-26T09:45:13.574Z|00011|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2025-08-26T09:45:13.574Z|00012|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2025-08-26T09:45:13.580Z|00013|reconnect|INFO|ssl:192.168.1.134:6642: connecting...
+2025-08-26T09:45:13.580Z|00014|reconnect|INFO|ssl:192.168.1.134:6642: connection attempt failed (Connection refused)
+2025-08-26T09:45:14.581Z|00015|reconnect|INFO|ssl:192.168.1.134:6642: connecting...
+2025-08-26T09:45:14.581Z|00016|reconnect|INFO|ssl:192.168.1.134:6642: connection attempt failed (Connection refused)
+2025-08-26T09:45:14.581Z|00017|reconnect|INFO|ssl:192.168.1.134:6642: waiting 2 seconds before reconnect
+2025-08-26T09:45:15.390Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-controller.log
+2025-08-26T09:45:15.390Z|00002|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2025-08-26T09:45:15.390Z|00003|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2025-08-26T09:45:15.392Z|00004|main|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-26T09:45:15.392Z|00005|main|INFO|OVS IDL reconnected, force recompute.
+2025-08-26T09:45:15.396Z|00006|reconnect|INFO|ssl:192.168.1.134:6642: connecting...
+2025-08-26T09:45:15.396Z|00007|main|INFO|OVNSB IDL reconnected, force recompute.
+2025-08-26T09:45:15.402Z|00008|reconnect|INFO|ssl:192.168.1.134:6642: connected
+2025-08-26T09:45:15.410Z|00009|features|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting to switch
+2025-08-26T09:45:15.410Z|00010|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:15.410Z|00011|features|INFO|OVS Feature: ct_zero_snat, state: supported
+2025-08-26T09:45:15.410Z|00012|main|INFO|OVS feature set changed, force recompute.
+2025-08-26T09:45:15.410Z|00013|ofctrl|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting to switch
+2025-08-26T09:45:15.410Z|00014|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:15.410Z|00015|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:15.410Z|00016|main|INFO|OVS OpenFlow connection reconnected,force recompute.
+2025-08-26T09:45:15.411Z|00017|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:15.411Z|00018|main|INFO|OVS feature set changed, force recompute.
+2025-08-26T09:45:15.412Z|00001|pinctrl(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting to switch
+2025-08-26T09:45:15.412Z|00002|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:15.412Z|00003|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:20.615Z|00004|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connection closed by peer
+2025-08-26T09:45:20.615Z|00019|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connection closed by peer
+2025-08-26T09:45:20.615Z|00020|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connection closed by peer
+2025-08-26T09:45:20.736Z|00021|jsonrpc|WARN|unix:/var/run/openvswitch/db.sock: receive error: Connection reset by peer
+2025-08-26T09:45:20.736Z|00022|reconnect|WARN|unix:/var/run/openvswitch/db.sock: connection dropped (Connection reset by peer)
+2025-08-26T09:45:21.616Z|00023|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:21.616Z|00005|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:21.618Z|00024|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:21.618Z|00006|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:21.736Z|00025|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2025-08-26T09:45:21.737Z|00026|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2025-08-26T09:45:21.738Z|00027|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:22.103Z|00028|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:22.103Z|00029|main|INFO|OVNSB commit failed, force recompute next time.
+2025-08-26T09:45:22.103Z|00030|reconnect|INFO|ssl:192.168.1.134:6642: connection closed by peer
+2025-08-26T09:45:22.348Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-controller.log
+2025-08-26T09:45:22.349Z|00002|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2025-08-26T09:45:22.349Z|00003|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2025-08-26T09:45:22.350Z|00004|main|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-26T09:45:22.350Z|00005|main|INFO|OVS IDL reconnected, force recompute.
+2025-08-26T09:45:22.355Z|00006|reconnect|INFO|ssl:192.168.1.134:6642: connecting...
+2025-08-26T09:45:22.355Z|00007|main|INFO|OVNSB IDL reconnected, force recompute.
+2025-08-26T09:45:22.355Z|00008|reconnect|INFO|ssl:192.168.1.134:6642: connection attempt failed (Connection refused)
+2025-08-26T09:45:23.357Z|00009|reconnect|INFO|ssl:192.168.1.134:6642: connecting...
+2025-08-26T09:45:23.360Z|00010|reconnect|INFO|ssl:192.168.1.134:6642: connected
+2025-08-26T09:45:23.364Z|00011|features|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting to switch
+2025-08-26T09:45:23.364Z|00012|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:23.364Z|00013|features|INFO|OVS Feature: ct_zero_snat, state: supported
+2025-08-26T09:45:23.364Z|00014|main|INFO|OVS feature set changed, force recompute.
+2025-08-26T09:45:23.364Z|00015|ofctrl|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting to switch
+2025-08-26T09:45:23.364Z|00016|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:23.365Z|00017|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:23.365Z|00018|main|INFO|OVS OpenFlow connection reconnected,force recompute.
+2025-08-26T09:45:23.365Z|00001|pinctrl(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting to switch
+2025-08-26T09:45:23.365Z|00002|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2025-08-26T09:45:23.365Z|00003|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:23.366Z|00019|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2025-08-26T09:45:23.366Z|00020|main|INFO|OVS feature set changed, force recompute.
+2025-08-26T09:45:32.611Z|00021|memory|INFO|9280 kB peak resident set size after 10.3 seconds
+2025-08-26T09:45:32.611Z|00022|memory|INFO|idl-cells:404 ofctrl_desired_flow_usage-KB:2 ofctrl_installed_flow_usage-KB:1 ofctrl_sb_flow_ref_usage-KB:1
+2025-08-26T09:45:35.274Z|00023|binding|INFO|Claiming lport cr-lrp-c52aa59e-ff76-461d-9a0f-9db7df320e0b for this chassis.
+2025-08-26T09:45:35.274Z|00024|binding|INFO|cr-lrp-c52aa59e-ff76-461d-9a0f-9db7df320e0b: Claiming fa:16:3e:97:c8:21 172.24.5.249/24
+2025-08-26T09:46:07.705Z|00025|lflow_cache|INFO|Detected cache inactivity (last active 30001 ms ago): trimming cache
+2025-08-26T09:47:19.949Z|00026|lflow_cache|INFO|Detected cache inactivity (last active 30002 ms ago): trimming cache

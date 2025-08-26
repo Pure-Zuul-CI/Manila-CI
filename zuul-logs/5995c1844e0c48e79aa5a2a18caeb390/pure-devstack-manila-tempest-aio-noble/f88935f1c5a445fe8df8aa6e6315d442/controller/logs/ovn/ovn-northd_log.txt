@@ -1,0 +1,40 @@
+2025-08-26T14:26:37.399Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-26T14:26:37.400Z|00002|ovn_northd|INFO|OVN internal version is : [24.03.2-20.33.0-72.6]
+2025-08-26T14:26:37.400Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-26T14:26:37.400Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-26T14:26:37.400Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-26T14:26:37.400Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-26T14:26:37.400Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-26T14:26:37.400Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-26T14:26:37.400Z|00009|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-26T14:26:37.403Z|00010|memory_trim|INFO|Detected inactivity (last active 0 ms ago): trimming memory
+2025-08-26T14:27:07.433Z|00011|memory|INFO|7436 kB peak resident set size after 30.0 seconds
+2025-08-26T14:27:07.433Z|00012|memory|INFO|idl-cells-OVN_Northbound:12 idl-cells-OVN_Southbound:185
+2025-08-26T14:27:07.434Z|00013|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2025-08-26T14:30:38.280Z|00014|ovn_parallel_hmap|INFO|Setting thread count to 0
+2025-08-26T14:30:38.629Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-26T14:30:38.630Z|00002|ovn_northd|INFO|OVN internal version is : [24.03.2-20.33.0-72.6]
+2025-08-26T14:30:38.630Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-26T14:30:38.630Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-08-26T14:30:38.630Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-26T14:30:38.630Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-26T14:30:38.630Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-26T14:30:38.630Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-26T14:30:39.630Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-26T14:30:39.630Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-26T14:30:39.630Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-26T14:30:39.630Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-26T14:30:39.638Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-26T14:30:49.224Z|00014|memory|INFO|7460 kB peak resident set size after 10.6 seconds
+2025-08-26T14:30:49.225Z|00015|memory|INFO|idl-cells-OVN_Northbound:54 idl-cells-OVN_Southbound:222
+2025-08-26T14:31:45.965Z|00016|memory_trim|INFO|Detected inactivity (last active 30031 ms ago): trimming memory
+2025-08-26T14:32:28.330Z|00017|memory_trim|INFO|Detected inactivity (last active 30026 ms ago): trimming memory
+2025-08-26T14:33:09.405Z|00018|memory_trim|INFO|Detected inactivity (last active 30028 ms ago): trimming memory
+2025-08-26T14:36:31.813Z|00019|memory_trim|INFO|Detected inactivity (last active 30016 ms ago): trimming memory
+2025-08-26T14:42:08.398Z|00020|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2025-08-26T14:43:09.683Z|00021|memory_trim|INFO|Detected inactivity (last active 30031 ms ago): trimming memory
+2025-08-26T14:44:38.266Z|00022|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2025-08-26T14:47:11.456Z|00023|memory_trim|INFO|Detected inactivity (last active 30029 ms ago): trimming memory
+2025-08-26T14:50:06.623Z|00024|memory_trim|INFO|Detected inactivity (last active 30026 ms ago): trimming memory
+2025-08-26T14:51:44.035Z|00025|memory_trim|INFO|Detected inactivity (last active 30029 ms ago): trimming memory
+2025-08-26T14:52:38.637Z|00026|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory

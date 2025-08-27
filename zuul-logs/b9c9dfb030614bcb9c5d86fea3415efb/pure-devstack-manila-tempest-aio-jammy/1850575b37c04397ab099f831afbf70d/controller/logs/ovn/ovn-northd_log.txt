@@ -1,0 +1,40 @@
+2025-08-27T22:39:33.655Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-27T22:39:33.656Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-27T22:39:33.656Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-27T22:39:33.656Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-08-27T22:39:33.656Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-27T22:39:33.656Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-27T22:39:33.656Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-27T22:39:33.656Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-27T22:39:34.657Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-27T22:39:34.657Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-27T22:39:34.657Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-27T22:39:34.657Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-27T22:39:34.658Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-27T22:43:00.758Z|00014|memory|INFO|4084 kB peak resident set size after 207.1 seconds
+2025-08-27T22:43:01.090Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-27T22:43:01.090Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-27T22:43:01.090Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-27T22:43:01.090Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-08-27T22:43:01.090Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-27T22:43:01.090Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-27T22:43:01.090Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-27T22:43:01.090Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-27T22:43:02.091Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-27T22:43:02.091Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-27T22:43:02.091Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-27T22:43:02.091Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-27T22:43:02.092Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-27T22:43:09.852Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-08-27T22:43:09.853Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-08-27T22:43:09.854Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-08-27T22:43:09.854Z|00004|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-08-27T22:43:09.854Z|00005|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-27T22:43:09.854Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-08-27T22:43:09.854Z|00007|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-08-27T22:43:09.854Z|00008|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-08-27T22:43:10.854Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-08-27T22:43:10.854Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-08-27T22:43:10.854Z|00011|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-08-27T22:43:20.184Z|00012|memory|INFO|4548 kB peak resident set size after 10.3 seconds
+2025-08-27T22:50:49.484Z|00013|memory|INFO|peak resident set size grew 61% in last 449.3 seconds, from 4548 kB to 7332 kB

@@ -1,0 +1,6 @@
+Aug 28 00:25:42.087560 np0000032593 systemd[1]: Started devstack@n-novnc-cell1.service - Devstack devstack@n-novnc-cell1.service.
+Aug 28 00:25:43.366707 np0000032593 nova-novncproxy[77116]: INFO nova.console.websocketproxy [-] WebSocket server settings:
+Aug 28 00:25:43.366856 np0000032593 nova-novncproxy[77116]: INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+Aug 28 00:25:43.366895 np0000032593 nova-novncproxy[77116]: INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+Aug 28 00:25:43.366983 np0000032593 nova-novncproxy[77116]: INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+Aug 28 00:25:43.367244 np0000032593 nova-novncproxy[77116]: INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None

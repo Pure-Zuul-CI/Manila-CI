@@ -1,0 +1,11 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit allow-arp
+or other application using the libvirt API.
+-->
+
+<filter name='allow-arp' chain='arp' priority='-500'>
+  <uuid>4ef721c0-af6a-4122-95b4-eaae3844b485</uuid>
+  <rule action='accept' direction='inout' priority='500'/>
+</filter>

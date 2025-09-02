@@ -1,0 +1,41 @@
+2025-09-02T05:24:04.952Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-09-02T05:24:04.952Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-09-02T05:24:04.953Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-09-02T05:24:04.953Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-09-02T05:24:04.953Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-09-02T05:24:04.953Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-09-02T05:24:04.953Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-09-02T05:24:04.953Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-09-02T05:24:05.954Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-09-02T05:24:05.954Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-09-02T05:24:05.954Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-09-02T05:24:05.954Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-09-02T05:24:05.954Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-09-02T05:27:36.755Z|00014|memory|INFO|4212 kB peak resident set size after 211.8 seconds
+2025-09-02T05:27:37.093Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-09-02T05:27:37.094Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-09-02T05:27:37.094Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-09-02T05:27:37.094Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-09-02T05:27:37.094Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-09-02T05:27:37.094Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-09-02T05:27:37.094Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-09-02T05:27:37.094Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-09-02T05:27:38.095Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-09-02T05:27:38.095Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-09-02T05:27:38.095Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-09-02T05:27:38.095Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-09-02T05:27:38.095Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-09-02T05:27:45.576Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2025-09-02T05:27:45.577Z|00002|ovn_northd|INFO|OVN internal version is : [22.03.3-20.21.0-62.4]
+2025-09-02T05:27:45.578Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-09-02T05:27:45.578Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2025-09-02T05:27:45.578Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2025-09-02T05:27:45.578Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-09-02T05:27:45.578Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2025-09-02T05:27:45.578Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2025-09-02T05:27:46.579Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2025-09-02T05:27:46.579Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2025-09-02T05:27:46.579Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2025-09-02T05:27:46.579Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2025-09-02T05:27:46.579Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2025-09-02T05:27:56.013Z|00014|memory|INFO|4400 kB peak resident set size after 10.4 seconds

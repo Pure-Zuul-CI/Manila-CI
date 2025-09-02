@@ -1,0 +1,41 @@
+2025-09-02T02:38:06.753Z|00001|vlog|INFO|opened log file /var/log/ovn/ovsdb-server-nb.log
+2025-09-02T02:38:06.767Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-09-02T02:38:16.792Z|00003|memory|INFO|8296 kB peak resident set size after 10.0 seconds
+2025-09-02T02:38:16.792Z|00004|memory|INFO|atoms:32 cells:34 monitors:2 sessions:1
+2025-09-02T02:41:34.781Z|00005|fatal_signal|WARN|could not unlink "/var/run/ovn/ovnnb_db.sock" (No such file or directory)
+2025-09-02T02:41:35.008Z|00001|vlog|INFO|opened log file /var/log/ovn/ovsdb-server-nb.log
+2025-09-02T02:41:35.010Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-09-02T02:41:35.754Z|00003|unixctl|DBG|replying with success, id=0: ""
+2025-09-02T02:41:35.754Z|00004|jsonrpc|DBG|unix#3: send reply, result="", id=0
+2025-09-02T02:41:35.754Z|00005|ovsdb_util|DBG|Table `Connection' has no `read_only' column
+2025-09-02T02:41:35.754Z|00006|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 21 (/var/run/ovn/ovnnb_db.ctl<->) at ../lib/stream-fd.c:157
+2025-09-02T02:41:36.013Z|00007|poll_loop|DBG|wakeup due to [POLLIN] on fd 20 (/var/run/ovn/ovnnb_db.sock<->) at ../lib/stream-fd.c:157
+2025-09-02T02:41:36.013Z|00008|jsonrpc|DBG|unix#0: received request, method="transact", params=["OVN_Northbound",{"columns":["options"],"op":"wait","rows":[{"options":["map",[]]}],"table":"NB_Global","timeout":0,"until":"==","where":[["_uuid","==",["uuid","bf25a48d-43b2-471b-88c9-29965bdb0910"]]]},{"op":"update","row":{"options":["map",[["mac_prefix","12:9d:d5"],["max_tunid","16711680"],["northd_internal_version","22.03.3-20.21.0-62.4"],["svc_monitor_mac","ce:80:da:8b:cf:88"]]]},"table":"NB_Global","where":[["_uuid","==",["uuid","bf25a48d-43b2-471b-88c9-29965bdb0910"]]]},{"comment":"ovn-northd","op":"comment"}], id=13
+2025-09-02T02:41:36.014Z|00009|jsonrpc|DBG|unix#0: send notification, method="update3", params=[["monid","OVN_Northbound"],"00000000-0000-0000-0000-000000000000",{"NB_Global":{"bf25a48d-43b2-471b-88c9-29965bdb0910":{"modify":{"options":["map",[["mac_prefix","12:9d:d5"],["max_tunid","16711680"],["northd_internal_version","22.03.3-20.21.0-62.4"],["svc_monitor_mac","ce:80:da:8b:cf:88"]]]}}}}]
+2025-09-02T02:41:36.014Z|00010|jsonrpc|DBG|unix#0: send reply, result=[{},{"count":1},{}], id=13
+2025-09-02T02:41:37.516Z|00011|poll_loop|DBG|wakeup due to 1502-ms timeout at ../ovsdb/ovsdb-server.c:296
+2025-09-02T02:41:37.517Z|00012|poll_loop|DBG|wakeup due to 0-ms timeout at ../ovsdb/jsonrpc-server.c:617
+2025-09-02T02:41:37.517Z|00013|jsonrpc|DBG|unix#0: send notification, method="update3", params=[["monid","OVN_Northbound"],"00000000-0000-0000-0000-000000000000",{"Connection":{"46ce03b1-6da5-48a6-bd26-bc5c374cd551":{"modify":{"status":["map",[["bound_port","6641"],["sec_since_connect","0"],["sec_since_disconnect","0"]]]}}}}]
+2025-09-02T02:41:40.020Z|00014|poll_loop|DBG|wakeup due to 2503-ms timeout at ../ovsdb/ovsdb-server.c:296 (0% CPU usage)
+2025-09-02T02:41:42.521Z|00015|poll_loop|DBG|wakeup due to 2501-ms timeout at ../ovsdb/ovsdb-server.c:296 (0% CPU usage)
+2025-09-02T02:41:42.826Z|00016|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 20 (/var/run/ovn/ovnnb_db.sock<->) at ../lib/stream-fd.c:157 (0% CPU usage)
+2025-09-02T02:41:42.826Z|00017|poll_loop|DBG|wakeup due to 0-ms timeout at unix#0 (0% CPU usage)
+2025-09-02T02:41:42.826Z|00018|reconnect|DBG|unix#0: connection closed by peer
+2025-09-02T02:41:42.826Z|00019|reconnect|DBG|unix#0: entering VOID
+2025-09-02T02:41:42.928Z|00020|poll_loop|DBG|wakeup due to [POLLIN] on fd 19 (/var/run/ovn/ovnnb_db.ctl<->) at ../lib/stream-fd.c:274 (0% CPU usage)
+2025-09-02T02:41:42.928Z|00021|jsonrpc|DBG|unix#4: received request, method="version", params=[], id=0
+2025-09-02T02:41:42.928Z|00022|unixctl|DBG|received request version[], id=0
+2025-09-02T02:41:42.928Z|00023|unixctl|DBG|replying with success, id=0: "ovsdb-server (Open vSwitch) 2.17.9
+"
+2025-09-02T02:41:42.928Z|00024|jsonrpc|DBG|unix#4: send reply, result="ovsdb-server (Open vSwitch) 2.17.9\n", id=0
+2025-09-02T02:41:42.928Z|00025|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 20 (/var/run/ovn/ovnnb_db.ctl<->) at ../lib/stream-fd.c:157 (0% CPU usage)
+2025-09-02T02:41:42.931Z|00026|poll_loop|DBG|wakeup due to [POLLIN] on fd 19 (/var/run/ovn/ovnnb_db.ctl<->) at ../lib/stream-fd.c:274 (0% CPU usage)
+2025-09-02T02:41:42.931Z|00027|jsonrpc|DBG|unix#5: received request, method="exit", params=[], id=0
+2025-09-02T02:41:42.931Z|00028|unixctl|DBG|received request exit[], id=0
+2025-09-02T02:41:42.931Z|00029|unixctl|DBG|replying with success, id=0: ""
+2025-09-02T02:41:42.931Z|00030|jsonrpc|DBG|unix#5: send reply, result="", id=0
+2025-09-02T02:41:42.931Z|00031|poll_loop|DBG|wakeup due to [POLLIN][POLLHUP] on fd 20 (/var/run/ovn/ovnnb_db.ctl<->) at ../lib/stream-fd.c:157 (0% CPU usage)
+2025-09-02T02:41:43.540Z|00001|vlog|INFO|opened log file /var/log/ovn/ovsdb-server-nb.log
+2025-09-02T02:41:43.555Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.17.9
+2025-09-02T02:41:53.565Z|00003|memory|INFO|9796 kB peak resident set size after 10.0 seconds
+2025-09-02T02:41:53.565Z|00004|memory|INFO|atoms:209 cells:177 monitors:3 sessions:5

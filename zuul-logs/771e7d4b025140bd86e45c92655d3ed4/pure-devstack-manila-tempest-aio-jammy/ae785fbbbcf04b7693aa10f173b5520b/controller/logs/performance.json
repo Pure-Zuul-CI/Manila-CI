@@ -1,0 +1,29 @@
+{
+  "services": [
+    {
+      "service": "apache2.service",
+      "MemoryCurrent": 5664768
+    }
+  ],
+  "db": [],
+  "processes": [
+    {
+      "cmd": "/usr/lib/erlang/erts-12.2.1/bin/beam.smp",
+      "pid": 20681,
+      "args": "-W w -MBas ageffcbf -MHas ageffcbf -MBlmbcs 512 -MHlmbcs 512 -MMmcs 30 -P 1048576 -t 5000000 -stbt db -zdbbl 128000 -sbwt none -sbwtdcpu none -sbwtdio none -- -root /usr/lib/erlang -progname erl -- -home /var/lib/rabbitmq -- -pa  -noshell -noinput -s rabbit boot -boot start_sasl -syslog logger [] -syslog syslog_error_logger false -kernel prevent_overlapping_partitions false",
+      "rss": 130154496
+    },
+    {
+      "cmd": "/usr/sbin/mysqld",
+      "pid": 21745,
+      "args": "",
+      "rss": 402735104
+    }
+  ],
+  "api": [],
+  "report": {
+    "timestamp": "2025-09-02T05:33:37.700693",
+    "hostname": "np0000032637",
+    "version": 2
+  }
+}
